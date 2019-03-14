@@ -26,11 +26,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="451">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -73,6 +82,11 @@
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
@@ -123,12 +137,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552443677378</updated>
       <workItem from="1552443680497" duration="5093000" />
-      <workItem from="1552529567223" duration="2474000" />
+      <workItem from="1552529567223" duration="2636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7567000" />
+    <option name="totallyTimeSpent" value="7729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -162,9 +176,6 @@
     <entry file="file://$PROJECT_DIR$/profile.html" />
     <entry file="file://$PROJECT_DIR$/_includes/navigation.html" />
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/about.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/read_time.html">
@@ -275,10 +286,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="451">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
