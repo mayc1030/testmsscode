@@ -4,13 +4,6 @@ var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms
 
 $( document ).ready(function() {
 
-   var id_drupalnote = getParams;
-    getDataCallbackIdividualContentDrupalnotes(id_drupalnote);
-
-});
-
-function getParams(){
-
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = window.location.search.substring(1),
             sURLVariables = sPageURL.split('&'),
@@ -27,10 +20,11 @@ function getParams(){
     };
 
     var id_drupalnote = getUrlParameter('id');
+    
+    getDataCallbackIdividualContentDrupalnotes(id_drupalnote);
 
-    return id_drupalnote;
+});
 
-}
 
 //get_data_callback();
 // peticion ajax enviada como callback
