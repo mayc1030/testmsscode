@@ -57,7 +57,7 @@ function get_data_callbackcontentdrupalnotes(){
                     $(".linkdownload-drupalnotes").append("<div class='info'><a href='files/"+val.titulo+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>");
 
 
-                    $('<blockquote class="blockquote contentdrupalnotes"><img src="backend/'+val.ruta+'" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+val.titulo+'</p><footer>'+val.introduccion+'</footer><a class="nav-link developments btn-drupalnotes btn-drupalnotes-outline" href="drupalnotes.php?id='+val.id+'" role="button"><span class="icon-spinner5"></span><small>my</small> Leer Más</a></blockquote>').appendTo($(".fcontentdrupalnotes"));
+                    $('<blockquote class="blockquote contentdrupalnotes"><img src="backend/'+val.ruta+'" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+val.titulo+'</p><footer>'+val.introduccion+'</footer><a class="nav-link developments btn-drupalnotes btn-drupalnotes-outline" href="drupalnotes?id='+val.id+'" role="button"><span class="icon-spinner5"></span><small>my</small> Leer Más</a></blockquote>').appendTo($(".fcontentdrupalnotes"));
 
                 })
             }
