@@ -4,8 +4,14 @@ var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms
 
 $( document ).ready(function() {
 
+   var id_drupalnote = getParams;
+    getDataCallbackIdividualContentDrupalnotes(id_drupalnote);
 
-        var getUrlParameter = function getUrlParameter(sParam) {
+});
+
+function getParams(){
+
+    var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = window.location.search.substring(1),
             sURLVariables = sPageURL.split('&'),
             sParameterName,
@@ -21,17 +27,18 @@ $( document ).ready(function() {
     };
 
     var id_drupalnote = getUrlParameter('id');
-    console.log(id_drupalnote);
-    //get_data_callbackcontentdrupalnotes;
 
-});
+    return id_drupalnote;
+
+}
 
 //get_data_callback();
 // peticion ajax enviada como callback
-function gets_data_callbackcontentdrupalnotes(){
+function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
+    console.log(id_drupalnote);
 
     $.ajax({
-        data: { id:valor},
+        data: { id:id_drupalnote},
         type:"POST",
         url:url_contentdrupalnotes
     }).done(function(data,textStatus,jqXHR){
