@@ -62,7 +62,7 @@ function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
             }
         }),
 setTimeout(function(){
-    $( document ).write('<script src="../prism.js"></script>');
+    $.getScript("../prism.js");
 }, 3000);
 
     }).fail(function(jqXHR,textStatus,textError){
