@@ -44,6 +44,7 @@ function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
                 $.each(value, function(i,val){
 console.log(val.titulo);
                     console.log(val.contenido);
+                    $(".drupal-note").append(val.contenido);
                    /* $(".date-seccion").append("<div class='info'>El "+val.fecha+"</div>");
                     $(".view-drupalnotes").append("<div class='info'><i class='fas fa-eye'></i> "+val.visto+"</div>");
                     $(".download-drupalnotes").append("<div class='info'><i class='fas fa-download'></i> "+val.descargado+"</div>");
