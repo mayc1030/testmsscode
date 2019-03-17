@@ -42,9 +42,12 @@ function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
         $.each(objc, function(key,value){
             if(key == "content"){
                 $.each(value, function(i,val){
-console.log(val.titulo);
-                    console.log(val.contenido);
-                    $(".drupal-note").append(val.contenido);
+
+                        setTimeout(function(){
+                            $(".drupal-note").append(val.contenido);
+                        }, 3000);
+
+
                    /* $(".date-seccion").append("<div class='info'>El "+val.fecha+"</div>");
                     $(".view-drupalnotes").append("<div class='info'><i class='fas fa-eye'></i> "+val.visto+"</div>");
                     $(".download-drupalnotes").append("<div class='info'><i class='fas fa-download'></i> "+val.descargado+"</div>");
@@ -59,7 +62,7 @@ console.log(val.titulo);
             }
         })
 
-        document.write('<script src="../prism.js"></script>');
+
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame".textError);
     });
