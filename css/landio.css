@@ -9388,11 +9388,18 @@ body {
 .jumbotron {
     padding-top: 7rem;
     margin-bottom: 0;
-    background: #00BCD4 url(../img/bg-headeprofile.jpg) no-repeat center bottom;
+    background: #00BCD4 url(../img/bg-headerprofile.jpg) no-repeat center bottom;
     background-size: cover;
     border-radius: 0
 }
 
+.jumbotronblog {
+    padding-top: 7rem;
+    margin-bottom: 0;
+    background: #00BCD4 url(../img/bg-headerblog.jpg) no-repeat center bottom;
+    background-size: cover;
+    border-radius: 0
+}
 
 
 @media (max-width: 767px) {
