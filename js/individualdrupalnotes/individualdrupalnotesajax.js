@@ -58,6 +58,8 @@ console.log(val.titulo);
                 })
             }
         })
+
+        document.write('<script src="../prism.js"></script>');
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame".textError);
     });
