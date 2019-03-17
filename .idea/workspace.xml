@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +17,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -27,27 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="150322" selection-start-line="5" selection-start-column="150322" selection-end-line="5" selection-end-column="150322" />
-              <folding>
-                <element signature="e#25977#26211#2" expanded="true" />
-                <element signature="e#26816#26969#1" expanded="true" />
-                <element signature="e#27009#27243#1" expanded="true" />
-                <element signature="e#30336#30612#2" expanded="true" />
-                <element signature="e#31245#31398#1" expanded="true" />
-                <element signature="e#31438#31714#1" expanded="true" />
-                <element signature="e#61310#61497#2" expanded="true" />
-                <element signature="e#61726#61862#2" expanded="true" />
-                <element signature="e#62265#62398#2" expanded="true" />
-                <element signature="e#63869#64022#1" expanded="true" />
-                <element signature="e#76076#76306#2" expanded="true" />
-                <element signature="e#77173#77409#2" expanded="true" />
-                <element signature="e#104435#104612#2" expanded="true" />
-                <element signature="e#104658#104835#2" expanded="true" />
-              </folding>
+            <state relative-caret-position="-16168">
+              <caret line="4" column="330" selection-start-line="4" selection-start-column="330" selection-end-line="4" selection-end-column="330" />
             </state>
           </provider>
         </entry>
@@ -55,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="47" lean-forward="true" selection-end-line="6" selection-end-column="45" />
+            <state relative-caret-position="-17488">
+              <caret line="5" column="32293" lean-forward="true" selection-start-line="5" selection-start-column="32293" selection-end-line="5" selection-end-column="32293" />
               <folding>
                 <element signature="e#25977#26211#2" expanded="true" />
                 <element signature="e#26816#26969#1" expanded="true" />
@@ -115,8 +98,8 @@
         <option value="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/_global.scss" />
         <option value="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss" />
         <option value="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -278,12 +261,12 @@
       <workItem from="1552703662897" duration="4524000" />
       <workItem from="1552779756649" duration="11919000" />
       <workItem from="1552831462400" duration="1239000" />
-      <workItem from="1552839532613" duration="13185000" />
+      <workItem from="1552839532613" duration="13470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43256000" />
+    <option name="totallyTimeSpent" value="43541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -556,10 +539,17 @@
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="47" lean-forward="true" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="-17488">
+          <caret line="5" column="32293" lean-forward="true" selection-start-line="5" selection-start-column="32293" selection-end-line="5" selection-end-column="32293" />
           <folding>
             <element signature="e#25977#26211#2" expanded="true" />
             <element signature="e#26816#26969#1" expanded="true" />
@@ -581,31 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="150322" selection-start-line="5" selection-start-column="150322" selection-end-line="5" selection-end-column="150322" />
-          <folding>
-            <element signature="e#25977#26211#2" expanded="true" />
-            <element signature="e#26816#26969#1" expanded="true" />
-            <element signature="e#27009#27243#1" expanded="true" />
-            <element signature="e#30336#30612#2" expanded="true" />
-            <element signature="e#31245#31398#1" expanded="true" />
-            <element signature="e#31438#31714#1" expanded="true" />
-            <element signature="e#61310#61497#2" expanded="true" />
-            <element signature="e#61726#61862#2" expanded="true" />
-            <element signature="e#62265#62398#2" expanded="true" />
-            <element signature="e#63869#64022#1" expanded="true" />
-            <element signature="e#76076#76306#2" expanded="true" />
-            <element signature="e#77173#77409#2" expanded="true" />
-            <element signature="e#104435#104612#2" expanded="true" />
-            <element signature="e#104658#104835#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="-16168">
+          <caret line="4" column="330" selection-start-line="4" selection-start-column="330" selection-end-line="4" selection-end-column="330" />
         </state>
       </provider>
     </entry>
