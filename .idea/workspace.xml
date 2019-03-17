@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/drupalnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/drupalnotes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,12 +200,12 @@
       <workItem from="1552703662897" duration="4524000" />
       <workItem from="1552779756649" duration="11919000" />
       <workItem from="1552831462400" duration="1239000" />
-      <workItem from="1552839532613" duration="1353000" />
+      <workItem from="1552839532613" duration="1662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31424000" />
+    <option name="totallyTimeSpent" value="31733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
