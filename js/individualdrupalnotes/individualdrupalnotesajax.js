@@ -1,6 +1,6 @@
 
 // url para llamar la peticion por ajax
-var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/individualDrupalNotes.php";
+var url_individualcontentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/individualDrupalNotes.php";
 
 $( document ).ready(function() {
 
@@ -34,7 +34,7 @@ function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
     $.ajax({
         data: { id:id_drupalnote},
         type:"POST",
-        url:url_contentdrupalnotes
+        url:url_individualcontentdrupalnotes
     }).done(function(data,textStatus,jqXHR){
         console.log(data);
     }).fail(function(jqXHR,textStatus,textError){
