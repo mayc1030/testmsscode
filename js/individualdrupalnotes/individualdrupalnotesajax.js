@@ -2,7 +2,8 @@
 // url para llamar la peticion por ajax
 var url_individualcontentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/individualDrupalNotes.php";
 
-$( document ).ready(function() {
+window.onload(function() {
+//$( document ).ready(function() {
 
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = window.location.search.substring(1),
