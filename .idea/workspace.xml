@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
-              <caret line="22" column="101" lean-forward="true" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="117140" />
+            <state relative-caret-position="150">
+              <caret line="4" column="737" lean-forward="true" selection-start-line="4" selection-start-column="737" selection-end-line="4" selection-end-column="737" />
             </state>
           </provider>
         </entry>
@@ -38,8 +39,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="4" column="117140" selection-start-line="4" selection-start-column="117140" selection-end-line="4" selection-end-column="117140" />
+            <state relative-caret-position="22185">
+              <caret line="5" column="151020" selection-start-line="5" selection-start-column="151020" selection-end-line="5" selection-end-column="151020" />
+              <folding>
+                <element signature="e#25977#26211#2" expanded="true" />
+                <element signature="e#26816#26969#1" expanded="true" />
+                <element signature="e#27009#27243#1" expanded="true" />
+                <element signature="e#30336#30612#2" expanded="true" />
+                <element signature="e#31245#31398#1" expanded="true" />
+                <element signature="e#31438#31714#1" expanded="true" />
+                <element signature="e#61310#61497#2" expanded="true" />
+                <element signature="e#61726#61862#2" expanded="true" />
+                <element signature="e#62265#62398#2" expanded="true" />
+                <element signature="e#63869#64022#1" expanded="true" />
+                <element signature="e#76076#76306#2" expanded="true" />
+                <element signature="e#77173#77409#2" expanded="true" />
+                <element signature="e#104435#104612#2" expanded="true" />
+                <element signature="e#104658#104835#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,12 +261,12 @@
       <workItem from="1552703662897" duration="4524000" />
       <workItem from="1552779756649" duration="11919000" />
       <workItem from="1552831462400" duration="1239000" />
-      <workItem from="1552839532613" duration="12553000" />
+      <workItem from="1552839532613" duration="12787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42624000" />
+    <option name="totallyTimeSpent" value="42858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -531,24 +548,40 @@
     <entry file="file://$PROJECT_DIR$/assets/vendor/fontawesome-free/css/all.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="117140" />
+        <state relative-caret-position="22185">
+          <caret line="5" column="151020" selection-start-line="5" selection-start-column="151020" selection-end-line="5" selection-end-column="151020" />
+          <folding>
+            <element signature="e#25977#26211#2" expanded="true" />
+            <element signature="e#26816#26969#1" expanded="true" />
+            <element signature="e#27009#27243#1" expanded="true" />
+            <element signature="e#30336#30612#2" expanded="true" />
+            <element signature="e#31245#31398#1" expanded="true" />
+            <element signature="e#31438#31714#1" expanded="true" />
+            <element signature="e#61310#61497#2" expanded="true" />
+            <element signature="e#61726#61862#2" expanded="true" />
+            <element signature="e#62265#62398#2" expanded="true" />
+            <element signature="e#63869#64022#1" expanded="true" />
+            <element signature="e#76076#76306#2" expanded="true" />
+            <element signature="e#77173#77409#2" expanded="true" />
+            <element signature="e#104435#104612#2" expanded="true" />
+            <element signature="e#104658#104835#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="4" column="117140" selection-start-line="4" selection-start-column="117140" selection-end-line="4" selection-end-column="117140" />
+        <state relative-caret-position="150">
+          <caret line="4" column="737" lean-forward="true" selection-start-line="4" selection-start-column="737" selection-end-line="4" selection-end-column="737" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
-          <caret line="22" column="101" lean-forward="true" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
         </state>
       </provider>
     </entry>
