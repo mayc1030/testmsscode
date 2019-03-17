@@ -138,9 +138,16 @@
     content: "\e619"
 }
 
+.icon-drupal:before {
+    content: "\ea81";
+}
+
 .icon-msscode:before {
     background-image: url('../img/msscode.png');
 }
+
+
+
 
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -902,9 +909,10 @@ mark,
 
 .container-fluid {
     margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.938rem;
-    padding-right: 0.938rem
+    margin-right: auto
+    padding-left: 6.938rem;
+    padding-right: 6.938rem;
+    padding-top: 2rem;
 }
 
 .container-fluid::after {
@@ -2664,6 +2672,161 @@ fieldset[disabled] a.btn {
 }
 
 
+.btn-articles {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.938rem 1rem !important;
+    font-size: 1rem;
+    line-height: 2;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in-out
+}
+
+.btn-articles-outline {
+    color: #00BCD4;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+    margin-left: 10px;
+}
+
+.btn-articles-outline:focus,
+.btn-articles-outline.focus,
+.btn-articles-outline:active,
+.btn-articles-outline.active,
+.open>.btn-articles-outline.dropdown-toggle {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4
+}
+
+.btn-articles-outline:hover {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4
+}
+
+.btn-articles-outline.disabled:focus,
+.btn-articles-outline.disabled.focus,
+.btn-articles-outline:disabled:focus,
+.btn-articles-outline:disabled.focus {
+    border-color: #aa9fd4
+}
+
+.btn-articles-outline.disabled:hover,
+.btn-articles-outline:disabled:hover {
+    border-color: #aa9fd4
+}
+.btn-menu-content {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.1rem 0.2rem !important;
+    font-size: 1rem;
+    line-height: 2;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in-out
+}
+
+.btn-menu-content-outline {
+    color: #00BCD4;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+    margin-left: 10px;
+}
+
+.btn-menu-content-outline:focus,
+.btn-menu-content-outline.focus,
+.btn-menu-content-outline:active,
+.btn-menu-content-outline.active,
+.open>.btn-menu-content-outline.dropdown-toggle {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4
+}
+
+.btn-menu-content-outline:hover {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4
+}
+
+.btn-menu-content-outline.disabled:focus,
+.btn-menu-content-outline.disabled.focus,
+.btn-menu-content-outline:disabled:focus,
+.btn-menu-content-outline:disabled.focus {
+    border-color: #aa9fd4
+}
+
+.btn-menu-content-outline.disabled:hover,
+.btn-menu-content-outline:disabled:hover {
+    border-color: #aa9fd4
+}
+
+.btn-drupalnotes {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.938rem 1rem !important;
+    font-size: 1rem;
+    line-height: 2;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in-out
+}
+
+.btn-drupalnotes-outline {
+    color: #00BCD4;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+    margin-left: 10px;
+}
+
+.btn-drupalnotes-outline:focus,
+.btn-drupalnotes-outline.focus,
+.btn-drupalnotes-outline:active,
+.btn-drupalnotes-outline.active,
+.open>.btn-drupalnotes-outline.dropdown-toggle {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4
+}
+
+.btn-drupalnotes-outline:hover {
+    color: #fff;
+    background-color: #00BCD4;
+    border-color: #00BCD4
+}
+
+.btn-drupalnotes-outline.disabled:focus,
+.btn-drupalnotes-outline.disabled.focus,
+.btn-drupalnotes-outline:disabled:focus,
+.btn-drupalnotes-outline:disabled.focus {
+    border-color: #aa9fd4
+}
+
+.btn-drupalnotes-outline.disabled:hover,
+.btn-drupalnotes-outline:disabled:hover {
+    border-color: #aa9fd4
+}
+
 /**************/
 
 .btn-primary-outline {
@@ -3540,6 +3703,88 @@ input[type="button"].btn-block {
 .navbar-toggler:hover {
     text-decoration: none
 }
+
+
+.section-headerpagedrupalnotes {
+    background: #00BCD4 url(../img/bg-testimonials.jpg) no-repeat center bottom;
+    background-size: auto auto;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-style: solid;
+    border-width: 0 0 20px 0;
+    border-color: #1099ac;
+}
+.componente-titlepagedrupalnotes{
+    position: relative;
+    right: 34%;
+}
+.image-pagedrupalnotes{
+    display: inline-block;
+    position: relative;
+    left: 48px;
+}
+.image-pagedrupalnotes >img{
+    border: 4px solid #fff;
+}
+
+
+.logo-page-drupalnotes {
+    position: absolute;
+    left: 128%;
+    color: #ffffff;
+    font-size: 80px !important;
+}
+
+.logosite-page-drupalnotes {
+    position: absolute;
+    left: 103%;
+    bottom: 15px;
+}
+/*
+
+.navbar-pagedrupalnotes .title
+{
+    position: absolute;
+    left: 18%;
+    top: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+
+
+}
+
+.navbar-pagedrupalnotes .image-pagedrupalnotes
+{
+    position: absolute;
+    left: 10%;
+    top: 40px;
+}
+
+.navbar-pagedrupalnotes .title-pagedrupalnotes{
+    margin-top: 5rem;
+    position: absolute;
+    left: 18%;
+    font-size: 26px;
+    color: #fff;
+
+}
+
+
+.navbar-logopagedrupalnotes{
+    position: absolute;
+    left: 62%;
+    top: 38px;
+}
+
+.navbar-drupallogopagedrupalnotes{
+    position: absolute;
+    top: -26px;
+    left: 84%;
+    color:#ffffff;
+    font-size: 80px !important;
+}*/
 
 @media (min-width: 544px) {
     .navbar-toggleable-xs {
@@ -4666,7 +4911,7 @@ button.list-group-item-danger.active:hover {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color: #fff
+
 }
 
 .carousel-caption {
@@ -4918,7 +5163,7 @@ button.list-group-item-danger.active:hover {
 }
 
 .text-primary {
-    color: #00a5bb !important
+    color: #6c59b4 !important
 }
 
 a.text-primary:focus,
@@ -9148,6 +9393,8 @@ body {
     border-radius: 0
 }
 
+
+
 @media (max-width: 767px) {
     .jumbotron {
         padding-top: 6.25rem
@@ -9701,8 +9948,8 @@ figure {
 .section-testimonials .carousel-indicators {
     position: inherit;
     bottom: auto;
-    left: auto;
-    width: auto;
+    left: 280px;
+    width: 50%;
     margin: 0 0 2.1875rem
 }
 
@@ -10577,6 +10824,155 @@ figure {
 footer~div {
     display: none;
 }
+
+
+#control_menu_list_drupalnotes{
+    display: inline-block;
+}
+
+.logo-list-drupalnotes{
+    position: absolute;
+    left: 130%;
+    color:#ffffff;
+    font-size: 80px !important;
+}
+
+.view-drupalnotes{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    color:#ffffff;
+    font-size: 20px !important;
+}
+
+.download-drupalnotes{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color:#ffffff;
+    font-size: 20px !important;
+}
+
+
+.bullhorn-drupalnotes{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color:#ffffff;
+    font-size: 20px !important;
+}
+
+#carousel-list-content-articles {
+    position: relative;
+    left:50%;
+    margin-left:-200px;
+    margin-bottom: 100px;
+}
+
+.flistcontentdrupalnotes {
+    position: relative;
+    left:50%;
+    margin-left:-200px;
+    margin-bottom: 50px;
+}
+
+.title-seccion{
+    position: relative;
+    right: 40%;
+}
+
+.date-seccion{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.author-seccion{
+    position: absolute;
+    bottom:23px;
+    left: 0;
+}
+.componente-icon-list{
+    position: relative;
+    right: 40%;
+}
+
+.facebook-drupalnotes{
+    position: absolute;
+    bottom: 0;
+    left: 82%;
+    font-size: 30px;
+}
+
+.comments-drupalnotes{
+    position: absolute;
+    bottom: 0;
+    left: 86%;
+    font-size: 30px;
+}
+.linkdownload-drupalnotes{
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    font-size: 30px;
+}
+
+.linkdownload-ldrupalnotes{
+    position: absolute;
+    bottom: 23px;
+    left: 75%;
+    font-size: 20px;
+}
+
+.linkdownload-ldrupalnotes .info{
+    display: inline;
+    margin-right: 4px;
+}
+
+
+
+
+.paginationcontentdrupalnotes,
+.paginationlistcontentdrupalnotes{
+    position: relative;
+}
+
+
+.paginationcontentdrupalnotes ul,
+.paginationlistcontentdrupalnotes ul{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.paginationcontentdrupalnotes li,
+.paginationlistcontentdrupalnotes li
+{
+    list-style-type: none;
+    display: inline;
+    font-size: 40px;
+}
+
+.contentdrupalnotes{
+    position: relative;
+}
+
+.img-listdrupalnotes{
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+}
+
+.img-listdrupalnotes .info-img{
+    display: inline;
+}
+.img-listdrupalnotes .info-img a > img{
+    border: 2px solid #fff;
+    margin-right: 4px;
+}
+
 
 
 /* ==========================================================================
