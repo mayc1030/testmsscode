@@ -1,6 +1,6 @@
 
 // url para llamar la peticion por ajax
-var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/clDrupalNotes.php";
+var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/individualDrupalNotes.php";
 
 $( document ).ready(function() {
 
@@ -20,7 +20,7 @@ $( document ).ready(function() {
     };
 
     var id_drupalnote = getUrlParameter('id');
-    
+
     getDataCallbackIdividualContentDrupalnotes(id_drupalnote);
 
 });
@@ -29,14 +29,14 @@ $( document ).ready(function() {
 //get_data_callback();
 // peticion ajax enviada como callback
 function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
-    console.log(id_drupalnote);
+
 
     $.ajax({
         data: { id:id_drupalnote},
         type:"POST",
         url:url_contentdrupalnotes
     }).done(function(data,textStatus,jqXHR){
-
+        console.log(data);
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame".textError);
     });
