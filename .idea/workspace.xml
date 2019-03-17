@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="327">
+              <caret line="22" column="111" selection-start-line="22" selection-start-column="111" selection-end-line="22" selection-end-column="111" />
             </state>
           </provider>
         </entry>
@@ -90,7 +89,6 @@
         <option value="$PROJECT_DIR$/_includes/navbar.html" />
         <option value="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" />
         <option value="$PROJECT_DIR$/js/prism.js" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/drupalnotes.html" />
         <option value="$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js" />
@@ -108,6 +106,7 @@
         <option value="$PROJECT_DIR$/_includes/navbarblog.html" />
         <option value="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/_global.scss" />
         <option value="$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -254,12 +253,12 @@
       <workItem from="1552703662897" duration="4524000" />
       <workItem from="1552779756649" duration="11919000" />
       <workItem from="1552831462400" duration="1239000" />
-      <workItem from="1552839532613" duration="11505000" />
+      <workItem from="1552839532613" duration="12120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41576000" />
+    <option name="totallyTimeSpent" value="42191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -557,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="327">
+          <caret line="22" column="111" selection-start-line="22" selection-start-column="111" selection-end-line="22" selection-end-column="111" />
         </state>
       </provider>
     </entry>
