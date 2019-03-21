@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/headerblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/headerblog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/landio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landio.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/landio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="9404" lean-forward="true" selection-start-line="9404" selection-end-line="9404" />
+            <state relative-caret-position="421">
+              <caret line="4265" column="14" selection-start-line="4265" selection-start-column="14" selection-end-line="4265" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -68,6 +67,7 @@
       <find>post-heading</find>
       <find>clearfix</find>
       <find>bg-headerprofile.jpg</find>
+      <find>jumbotron</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -208,12 +208,12 @@
       <workItem from="1552779756649" duration="11919000" />
       <workItem from="1552831462400" duration="1239000" />
       <workItem from="1552839532613" duration="18790000" />
-      <workItem from="1553128370827" duration="2121000" />
+      <workItem from="1553128370827" duration="2879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53855000" />
+    <option name="totallyTimeSpent" value="54613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -479,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/landio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="9404" lean-forward="true" selection-start-line="9404" selection-end-line="9404" />
+        <state relative-caret-position="421">
+          <caret line="4265" column="14" selection-start-line="4265" selection-start-column="14" selection-end-line="4265" selection-end-column="14" />
         </state>
       </provider>
     </entry>
