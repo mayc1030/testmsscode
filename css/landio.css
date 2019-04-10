@@ -9443,7 +9443,7 @@ body {
     background: #00BCD4 url(../img/bg-headerblog.jpg) no-repeat center bottom;
     background-size: cover;
     border-radius: 0;
-    height: 300px;
+    height: 140px;
 }
 
 @media (max-width: 767px) {
