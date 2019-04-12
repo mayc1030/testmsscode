@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/landio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="11173" column="46" selection-start-line="11173" selection-start-column="46" selection-end-line="11173" selection-end-column="46" />
+            <state relative-caret-position="278">
+              <caret line="11174" column="31" lean-forward="true" selection-start-line="11174" selection-start-column="31" selection-end-line="11174" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -220,12 +220,12 @@
       <workItem from="1552839532613" duration="18790000" />
       <workItem from="1553128370827" duration="2879000" />
       <workItem from="1554947516851" duration="629000" />
-      <workItem from="1555035085434" duration="8303000" />
+      <workItem from="1555035085434" duration="8588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65173000" />
+    <option name="totallyTimeSpent" value="65458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -525,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/landio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="11173" column="46" selection-start-line="11173" selection-start-column="46" selection-end-line="11173" selection-end-column="46" />
+        <state relative-caret-position="278">
+          <caret line="11174" column="31" lean-forward="true" selection-start-line="11174" selection-start-column="31" selection-end-line="11174" selection-end-column="31" />
         </state>
       </provider>
     </entry>
