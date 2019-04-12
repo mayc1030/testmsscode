@@ -11171,7 +11171,7 @@ Animations
 .testimonial-slider
 ========================================================================== */
 .testimonial-slider {
-    background: url("../img/testimonials-bg.jpg") no-repeat center center;
+    background: url("../img/bg-testimonials.jpg") no-repeat center center;
     background-size: cover; }
 .testimonial-slider .avatar {
     width: 82px;
