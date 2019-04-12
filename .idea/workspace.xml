@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/landio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landio.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="294">
+              <caret line="20" column="72" lean-forward="true" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/landio.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="11196" column="26" selection-start-line="11196" selection-start-column="26" selection-end-line="11196" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -71,10 +80,10 @@
         <option value="$PROJECT_DIR$/_layouts/homeblog.html" />
         <option value="$PROJECT_DIR$/_includes/headerblog.html" />
         <option value="$PROJECT_DIR$/_includes/navbarblog.html" />
-        <option value="$PROJECT_DIR$/css/landio.css" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/_includes/frontdrupalnotes.html" />
+        <option value="$PROJECT_DIR$/css/landio.css" />
       </list>
     </option>
   </component>
@@ -109,6 +118,11 @@
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
@@ -177,12 +191,12 @@
       <workItem from="1552839532613" duration="18790000" />
       <workItem from="1553128370827" duration="2879000" />
       <workItem from="1554947516851" duration="629000" />
-      <workItem from="1555035085434" duration="4831000" />
+      <workItem from="1555035085434" duration="5107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61701000" />
+    <option name="totallyTimeSpent" value="61977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -369,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/landio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="5006" column="28" selection-start-line="5006" selection-start-column="28" selection-end-line="5006" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/navbarblog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -463,8 +470,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="294">
+          <caret line="20" column="72" lean-forward="true" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="11196" column="26" selection-start-line="11196" selection-start-column="26" selection-end-line="11196" selection-end-column="26" />
         </state>
       </provider>
     </entry>
