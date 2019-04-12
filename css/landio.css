@@ -5004,7 +5004,8 @@ button.list-group-item-danger.active:hover {
 }
 
 .pull-xs-right {
-    float: right !important
+    float: right !important;
+    font-size: 20px;
 }
 
 .pull-xs-none {
