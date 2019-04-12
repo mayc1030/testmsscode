@@ -836,6 +836,11 @@ mark,
     height: auto
 }
 
+.logo_header {
+    width: 10%;
+    height: auto;
+}
+
 .img-rounded {
     border-radius: 0.3rem
 }
