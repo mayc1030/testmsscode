@@ -837,6 +837,10 @@ mark,
 }
 
 .logo_header {
+
+    position: relative;
+    top: 8px;
+    left: 20px;
     width: 30%;
     height: auto;
 }
