@@ -1,6 +1,12 @@
 (function($) {
     "use strict";
 
+    /***************** Initiate Flexslider ******************/
+    $('.flexslider').flexslider({
+        animation: "slide"
+    });
+
+
     // Bootstrap JS
     // @codekit-prepend "bootstrap/util.js";
     // @codekit-prepend "bootstrap/carousel.js";
