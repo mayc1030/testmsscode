@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/logoc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/headerblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/headerblog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/landio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landio.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,16 +26,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/headerblog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/landio.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
@@ -96,8 +93,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-28-exploration.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_layouts/homeblog.html" />
-        <option value="$PROJECT_DIR$/_includes/headerblog.html" />
         <option value="$PROJECT_DIR$/css/landio.css" />
+        <option value="$PROJECT_DIR$/_includes/headerblog.html" />
       </list>
     </option>
   </component>
@@ -195,12 +192,12 @@
       <workItem from="1552839532613" duration="18790000" />
       <workItem from="1553128370827" duration="2879000" />
       <workItem from="1554947516851" duration="629000" />
-      <workItem from="1555035085434" duration="416000" />
+      <workItem from="1555035085434" duration="678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57286000" />
+    <option name="totallyTimeSpent" value="57548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -446,6 +443,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/landio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="841" column="1" lean-forward="true" selection-start-line="841" selection-start-column="1" selection-end-line="841" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/drupalnotes.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -458,15 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/headerblog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/landio.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="841" column="1" lean-forward="true" selection-start-line="841" selection-start-column="1" selection-end-line="841" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
