@@ -35,12 +35,14 @@
     let intervalo;
 
     function cplay(selector) {
-        getClass(selector);
+        var id = selector.attr('class').split(' ')[1];
+        console.log(id);
+        getClass(id);
         intervalo = setInterval(changeView, 3000);
     }
 
-    function getClass(selector) {
-       return selector.attr('class').split(' ')[1];
+    function getClass(id) {
+       return id;
     }
 
     function changeView() {
