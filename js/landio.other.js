@@ -61,7 +61,7 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
 
-            changeView();
+            cplay();
 
         });
 
@@ -83,11 +83,15 @@
     }
 
     function renderizarImagen () {
-        console.log(posicionActual);
+        console.log(posicionActual+"--"+ $("#carousel-developments .carousel-indicators li").size() - 1);
        // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
     }
 
-    setInterval(changeView(), 3000);
+    function cplay() {
+
+        setInterval(changeView(), 3000);
+    }
+
 
     function start() {
 
