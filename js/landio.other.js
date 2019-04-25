@@ -57,7 +57,8 @@
     }
 
     function renderizarImagen () {
-        $('#carousel-'+getClass().trim()+' .carousel-indicators li:nth-child('+posicionActual+') img').click();
+        console.log(getClass());
+        $('#carousel-'+getClass()+' .carousel-indicators li:nth-child('+posicionActual+') img').click();
     }
 
 
