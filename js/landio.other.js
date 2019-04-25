@@ -35,8 +35,12 @@
     let intervalo;
 
     function cplay(selector) {
-console.log(selector.attr('class').split(' ')[1]);
+        getClass(selector);
         intervalo = setInterval(changeView, 3000);
+    }
+
+    function getClass(selector) {
+       return selector.attr('class').split(' ')[1];
     }
 
     function changeView() {
@@ -51,7 +55,7 @@ console.log(selector.attr('class').split(' ')[1]);
     }
 
     function renderizarImagen () {
-        $('#carousel-developments .carousel-indicators li:nth-child('+posicionActual+') img').click();
+        $('#carousel-'+getClass().trim()+' .carousel-indicators li:nth-child('+posicionActual+') img').click();
     }
 
 
