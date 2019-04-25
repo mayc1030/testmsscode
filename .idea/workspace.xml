@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/_includes/notices.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/notices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/landio.other.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/landio.other.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/notices.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="368">
+              <caret line="134" column="7" lean-forward="true" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/landio.other.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -102,10 +112,12 @@
       <find>drupal</find>
       <find>.flex-control-nav</find>
       <find>slides</find>
+      <find>carousel</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/_includes</dir>
+      <dir>$PROJECT_DIR$/js</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -139,13 +151,13 @@
         <option value="$PROJECT_DIR$/_includes/headerblog.html" />
         <option value="$PROJECT_DIR$/_includes/navbarblog.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/js/landio.other.js" />
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/css/landio.css" />
         <option value="$PROJECT_DIR$/css/flexslider.css" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/frontdrupalnotes.html" />
         <option value="$PROJECT_DIR$/_includes/notices.html" />
+        <option value="$PROJECT_DIR$/js/landio.other.js" />
       </list>
     </option>
   </component>
@@ -192,11 +204,6 @@
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
@@ -266,12 +273,12 @@
       <workItem from="1553128370827" duration="2879000" />
       <workItem from="1554947516851" duration="629000" />
       <workItem from="1555035085434" duration="9653000" />
-      <workItem from="1556155577201" duration="5079000" />
+      <workItem from="1556155577201" duration="5907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71602000" />
+    <option name="totallyTimeSpent" value="72430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -480,13 +487,6 @@
     <entry file="file://$PROJECT_DIR$/js/jquery.flexslider-min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/landio.other.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -569,8 +569,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/notices.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="368">
+          <caret line="134" column="7" lean-forward="true" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/landio.other.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="62" column="74" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
         </state>
       </provider>
     </entry>
