@@ -74,7 +74,7 @@
     function changeView(cont) {
 
     cont+1;
-        $('#carousel-developments .carousel-indicators li:nth-child(cont) img').click();
+        $('#carousel-developments .carousel-indicators li:nth-child(1) img').click();
         console.log(cont);
 
     }
