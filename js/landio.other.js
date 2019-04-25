@@ -35,7 +35,7 @@
     let intervalo;
 
     function cplay(selector) {
-console.log(selector.getAttribute('class'));
+console.log(selector.attr('class').split(' ')[1]);
         intervalo = setInterval(changeView, 3000);
     }
 
