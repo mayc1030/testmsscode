@@ -60,12 +60,20 @@
             $('#carousel-proyects').hide();
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
-            $('#carousel-developments .carousel-indicators li:nth-child(2) img').click();
+            changeView();
+
 
 
         });
 
     }
+
+    function changeView() {
+       var gola = $("#carousel-developments .carousel-indicators li").size();
+        console.log(gola);
+        $('#carousel-developments .carousel-indicators li:nth-child(2) img').click();
+    }
+    setInterval(changeView, 3000);
 
     function start() {
 
