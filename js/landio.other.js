@@ -37,8 +37,6 @@
 
     function cplay(selector) {
         idselector = selector.attr('class').split(' ')[1];
-        console.log( idselector);
-
         intervalo = setInterval(changeView, 3000);
     }
 
@@ -54,7 +52,6 @@
     }
 
     function renderizarImagen () {
-        console.log( idselector);
         $('#carousel-'+ idselector+' .carousel-indicators li:nth-child('+posicionActual+') img').click();
     }
 
@@ -70,6 +67,8 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').hide();
 
+            clearInterval(intervalo);
+            cplay($(this));
 
         });
 
@@ -80,6 +79,8 @@
             $('#carousel-contributions').fadeIn("slow");
             $('#carousel-developments').hide();
 
+            clearInterval(intervalo);
+            cplay($(this));
 
         });
 
@@ -92,7 +93,6 @@
 
             clearInterval(intervalo);
             cplay($(this));
-
 
         });
 
