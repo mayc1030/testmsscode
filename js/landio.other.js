@@ -33,16 +33,13 @@
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
     let posicionActual = 1;
     let intervalo;
+    let idselector;
 
     function cplay(selector) {
-        var id = selector.attr('class').split(' ')[1];
-        console.log(id);
-        getClass(id);
-        intervalo = setInterval(changeView, 3000);
-    }
+        idselector = selector.attr('class').split(' ')[1];
+        console.log( idselector);
 
-    function getClass(id) {
-       return id;
+        intervalo = setInterval(changeView, 3000);
     }
 
     function changeView() {
@@ -57,8 +54,8 @@
     }
 
     function renderizarImagen () {
-        console.log(getClass());
-        $('#carousel-'+getClass()+' .carousel-indicators li:nth-child('+posicionActual+') img').click();
+        console.log( idselector);
+        $('#carousel-'+ idselector+' .carousel-indicators li:nth-child('+posicionActual+') img').click();
     }
 
 
