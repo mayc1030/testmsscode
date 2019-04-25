@@ -61,7 +61,6 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
 
-            cplay();
 
         });
 
@@ -92,10 +91,11 @@
     //     intervalo = setInterval(changeView(), 3000);
     // }
 
-    function changeView() {
-        console.log("hola");
+    function changeColor() {
+     console.log("hola");
     }
-    setInterval(changeView(), 3000);
+    setInterval(changeColor, 3000);
+
 
     function start() {
 
