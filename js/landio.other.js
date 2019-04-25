@@ -83,7 +83,7 @@
     }
 
     function renderizarImagen () {
-        console.log(posicionActual+"--"+ $("#carousel-developments .carousel-indicators li").size() - 1);
+        console.log(posicionActual+"--");
        // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
     }
 
