@@ -60,7 +60,7 @@
             $('#carousel-proyects').hide();
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
-            $('#carousel-developments .carousel-indicators li:nth-child(2)').click();
+            $('#carousel-developments .carousel-indicators li:nth-child(2) img').click();
 
 
         });
