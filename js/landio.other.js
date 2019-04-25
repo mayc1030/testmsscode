@@ -67,31 +67,35 @@
 
     }
 
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
-    let posicionActual = 0;
-    let intervalo;
+    // const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
+    // let posicionActual = 0;
+    // let intervalo;
+    //
+    // function changeView() {
+    //
+    //     if(posicionActual >= $("#carousel-developments .carousel-indicators li").size() - 1) {
+    //         posicionActual = 0;
+    //     } else {
+    //         posicionActual++;
+    //     }
+    //     renderizarImagen();
+    //
+    // }
+    //
+    // function renderizarImagen () {
+    //     console.log(posicionActual+"--");
+    //    // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
+    // }
+    //
+    // function cplay() {
+    //
+    //     intervalo = setInterval(changeView(), 3000);
+    // }
 
     function changeView() {
-
-        if(posicionActual >= $("#carousel-developments .carousel-indicators li").size() - 1) {
-            posicionActual = 0;
-        } else {
-            posicionActual++;
-        }
-        renderizarImagen();
-
+        console.log("hola");
     }
-
-    function renderizarImagen () {
-        console.log(posicionActual+"--");
-       // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
-    }
-
-    function cplay() {
-
-        intervalo = setInterval(changeView(), 3000);
-    }
-
+    setInterval(changeView(), 3000);
 
     function start() {
 
