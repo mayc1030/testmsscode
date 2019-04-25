@@ -61,40 +61,38 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
 
+            cplay();
 
         });
 
     }
 
-    // const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
-    // let posicionActual = 0;
-    // let intervalo;
-    //
-    // function changeView() {
-    //
-    //     if(posicionActual >= $("#carousel-developments .carousel-indicators li").size() - 1) {
-    //         posicionActual = 0;
-    //     } else {
-    //         posicionActual++;
-    //     }
-    //     renderizarImagen();
-    //
-    // }
-    //
-    // function renderizarImagen () {
-    //     console.log(posicionActual+"--");
-    //    // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
-    // }
-    //
-    // function cplay() {
-    //
-    //     intervalo = setInterval(changeView(), 3000);
-    // }
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
+    let posicionActual = 0;
+    let intervalo;
 
-    function changeColor() {
-     console.log("hola");
+    function changeView() {
+
+        if(posicionActual >= $("#carousel-developments .carousel-indicators li").size() - 1) {
+            posicionActual = 0;
+        } else {
+            posicionActual++;
+        }
+        renderizarImagen();
+
     }
-    setInterval(changeColor, 3000);
+
+    function renderizarImagen () {
+        console.log(posicionActual);
+       // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
+    }
+
+    function cplay() {
+
+        intervalo = setInterval(changeView, 3000);
+    }
+
+
 
 
     function start() {
