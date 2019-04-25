@@ -68,7 +68,7 @@
     }
 
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
-    let posicionActual = 0;
+    let posicionActual = 1;
     let intervalo;
 
     function changeView() {
@@ -84,7 +84,7 @@
 
     function renderizarImagen () {
         console.log(posicionActual);
-       // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
+        $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
     }
 
     function cplay() {
