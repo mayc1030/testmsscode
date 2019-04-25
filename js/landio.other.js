@@ -34,8 +34,8 @@
     let posicionActual = 1;
     let intervalo;
 
-    function cplay() {
-
+    function cplay(selector) {
+console.log(selector);
         intervalo = setInterval(changeView, 3000);
     }
 
@@ -87,7 +87,7 @@
             $('#carousel-developments').fadeIn("slow");
 
             clearInterval(intervalo);
-            cplay();
+            cplay($(this));
 
 
         });
