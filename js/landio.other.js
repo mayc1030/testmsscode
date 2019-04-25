@@ -73,8 +73,8 @@
 
     function changeView() {
 
-        if(posicionActual >= $("#carousel-developments .carousel-indicators li").size() - 1) {
-            posicionActual = 0;
+        if(posicionActual === $("#carousel-developments .carousel-indicators li").size()) {
+            posicionActual = 1;
         } else {
             posicionActual++;
         }
@@ -85,7 +85,7 @@
     function renderizarImagen () {
         console.log(posicionActual);
         setTimeout(function(){
-            $('#carousel-developments .carousel-indicators li:nth-child(3) img').click();
+            $('#carousel-developments .carousel-indicators li:nth-child('+posicionActual+') img').click();
         }, 1000);
 
     }
