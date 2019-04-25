@@ -79,7 +79,7 @@
             posicionActual++;
         }
         renderizarImagen();
-
+console.log(posicionActual);
     }
 
     function renderizarImagen () {
