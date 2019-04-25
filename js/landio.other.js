@@ -30,6 +30,31 @@
     // @codekit-prepend "plugins/chart.js";
 
 
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
+    let posicionActual = 1;
+    let intervalo;
+
+    function cplay() {
+
+        intervalo = setInterval(changeView, 3000);
+    }
+
+    function changeView() {
+
+        if(posicionActual === $("#carousel-developments .carousel-indicators li").size()) {
+            posicionActual = 1;
+        } else {
+            posicionActual++;
+        }
+        renderizarImagen();
+
+    }
+
+    function renderizarImagen () {
+        $('#carousel-developments .carousel-indicators li:nth-child('+posicionActual+') img').click();
+    }
+
+
     function hidecarruselproyect() {
         $('#carousel-contributions').hide();
         $('#carousel-developments').hide();
@@ -62,40 +87,11 @@
             $('#carousel-developments').fadeIn("slow");
 
             cplay();
+            clearInterval(intervalo);
 
         });
 
     }
-
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
-    let posicionActual = 1;
-    let intervalo;
-
-    function changeView() {
-
-        if(posicionActual === $("#carousel-developments .carousel-indicators li").size()) {
-            posicionActual = 1;
-        } else {
-            posicionActual++;
-        }
-        renderizarImagen();
-
-    }
-
-    function renderizarImagen () {
-        console.log(posicionActual);
-        setTimeout(function(){
-            $('#carousel-developments .carousel-indicators li:nth-child('+posicionActual+') img').click();
-        }, 1000);
-
-    }
-
-    function cplay() {
-
-        intervalo = setInterval(changeView, 3000);
-    }
-
-
 
 
     function start() {
