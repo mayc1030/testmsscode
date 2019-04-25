@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/flexslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flexslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="11" column="73" lean-forward="true" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+            <state relative-caret-position="231">
+              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -33,17 +33,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/landio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="234675">
               <caret line="11175" column="30" selection-start-line="11175" selection-start-column="30" selection-end-line="11175" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/flexslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="200" column="1" lean-forward="true" selection-start-line="200" selection-start-column="1" selection-end-line="200" selection-end-column="1" />
+            <state relative-caret-position="83">
+              <caret line="200" column="1" selection-start-line="200" selection-start-column="1" selection-end-line="200" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -108,6 +117,7 @@
         <option value="$PROJECT_DIR$/_includes/frontdrupalnotes.html" />
         <option value="$PROJECT_DIR$/css/landio.css" />
         <option value="$PROJECT_DIR$/css/flexslider.css" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -134,11 +144,6 @@
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
@@ -223,17 +228,18 @@
       <workItem from="1553128370827" duration="2879000" />
       <workItem from="1554947516851" duration="629000" />
       <workItem from="1555035085434" duration="9653000" />
+      <workItem from="1556155577201" duration="148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66523000" />
+    <option name="totallyTimeSpent" value="66671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20090635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20392749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,11 +265,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -471,11 +472,7 @@
         <state relative-caret-position="-59" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/flexsliderc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5225" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flexsliderc.css" />
     <entry file="file://$PROJECT_DIR$/bower_components/classie/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -504,6 +501,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -511,24 +515,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" column="73" lean-forward="true" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/landio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="234675">
           <caret line="11175" column="30" selection-start-line="11175" selection-start-column="30" selection-end-line="11175" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/flexslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="200" column="1" lean-forward="true" selection-start-line="200" selection-start-column="1" selection-end-line="200" selection-end-column="1" />
+        <state relative-caret-position="83">
+          <caret line="200" column="1" selection-start-line="200" selection-start-column="1" selection-end-line="200" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
