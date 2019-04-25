@@ -42,7 +42,7 @@
 
     function changeView() {
 
-        if(posicionActual === $("#carousel-developments .carousel-indicators li").size()) {
+        if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
             posicionActual = 1;
         } else {
             posicionActual++;
