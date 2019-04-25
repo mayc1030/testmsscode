@@ -86,8 +86,9 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
 
-            cplay();
             clearInterval(intervalo);
+            cplay();
+
 
         });
 
