@@ -30,14 +30,16 @@
     // @codekit-prepend "plugins/chart.js";
 
 
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
     let posicionActual = 1;
     let intervalo;
     let idselector;
 
     function cplay(selector) {
         idselector = selector.attr('class').split(' ')[1];
-        intervalo = setInterval(changeView, 3000);
+        clearInterval(intervalo);
+        posicionActual = 1;
+            intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
     }
 
     function changeView() {
@@ -67,7 +69,6 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').hide();
 
-            clearInterval(intervalo);
             cplay($(this));
 
         });
@@ -79,7 +80,6 @@
             $('#carousel-contributions').fadeIn("slow");
             $('#carousel-developments').hide();
 
-            clearInterval(intervalo);
             cplay($(this));
 
         });
@@ -91,7 +91,6 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
 
-            clearInterval(intervalo);
             cplay($(this));
 
         });
