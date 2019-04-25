@@ -70,13 +70,12 @@
 
     let gola = $("#carousel-developments .carousel-indicators li").size();
     var cont = 1;
-    let conta;
+
     function changeView(cont) {
 
-
-     conta  = cont+1;
-        $('#carousel-developments .carousel-indicators li:nth-child(conta) img').click();
-        console.log(conta);
+    cont+1;
+        $('#carousel-developments .carousel-indicators li:nth-child(cont) img').click();
+        console.log(cont);
 
     }
     setInterval(changeView(cont), 3000);
