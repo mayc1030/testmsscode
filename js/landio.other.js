@@ -89,7 +89,7 @@
 
     function cplay() {
 
-        setInterval(changeView(), 3000);
+        intervalo = setInterval(changeView(), 3000);
     }
 
 
