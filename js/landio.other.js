@@ -79,11 +79,12 @@
             posicionActual++;
         }
         renderizarImagen();
-console.log(posicionActual);
+
     }
 
     function renderizarImagen () {
-        $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
+        console.log(posicionActual);
+       // $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
     }
 
     setInterval(changeView(), 3000);
