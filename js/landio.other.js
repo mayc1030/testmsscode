@@ -68,12 +68,18 @@
 
     }
 
-    function changeView() {
-       var gola = $("#carousel-developments .carousel-indicators li").size();
-        console.log(gola);
-        $('#carousel-developments .carousel-indicators li:nth-child(2) img').click();
+    let gola = $("#carousel-developments .carousel-indicators li").size();
+    var cont = 1;
+    let conta;
+    function changeView(cont) {
+
+
+     conta  = cont+1;
+        $('#carousel-developments .carousel-indicators li:nth-child(conta) img').click();
+        console.log(conta);
+
     }
-    setInterval(changeView, 3000);
+    setInterval(changeView(cont), 3000);
 
     function start() {
 
