@@ -84,7 +84,10 @@
 
     function renderizarImagen () {
         console.log(posicionActual);
-        $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
+        setTimeout(function(){
+            $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click();
+        }, 1000);
+
     }
 
     function cplay() {
