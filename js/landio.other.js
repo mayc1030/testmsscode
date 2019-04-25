@@ -85,7 +85,7 @@
     function renderizarImagen () {
         console.log(posicionActual);
         setTimeout(function(){
-            $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click();
+            $('#carousel-developments .carousel-indicators li:nth-child(3) img').click();
         }, 1000);
 
     }
