@@ -60,25 +60,33 @@
             $('#carousel-proyects').hide();
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
+
             changeView();
-
-
 
         });
 
     }
 
-    let gola = $("#carousel-developments .carousel-indicators li").size();
-    var cont = 1;
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
+    let posicionActual = 0;
+    let intervalo;
 
-    function changeView(cont) {
+    function changeView() {
 
-    cont+1;
-        $('#carousel-developments .carousel-indicators li:nth-child(1) img').click();
-        console.log(cont);
+        if(posicionActual >= $("#carousel-developments .carousel-indicators li").size() - 1) {
+            posicionActual = 0;
+        } else {
+            posicionActual++;
+        }
+        renderizarImagen();
 
     }
-    setInterval(changeView(cont), 3000);
+
+    function renderizarImagen () {
+        $('#carousel-developments .carousel-indicators li:nth-child(posicionActual) img').click()
+    }
+
+    setInterval(changeView(), 3000);
 
     function start() {
 
