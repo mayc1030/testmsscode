@@ -34,10 +34,9 @@
     let posicionActual = 1;
     let intervalo;
     let idselector;
-    let completeselector;
+
 
     function cplay(selector) {
-        completeselector = selector;
         idselector = selector.attr('class').split(' ')[1];
         clearInterval(intervalo);
         posicionActual = 1;
@@ -102,7 +101,7 @@
     $(".carousel-inner").hover(function(){
         clearInterval(intervalo);
     }, function(){
-        cplay(completeselector);
+        cplay();
     });
 
 
