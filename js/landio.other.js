@@ -33,7 +33,7 @@
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
     let posicionActual = 1;
     let intervalo;
-    let idselector;
+    let idselector = "proyects";
 
 
     function cplay(selector) {
@@ -101,7 +101,7 @@
     $(".carousel-inner").hover(function(){
         clearInterval(intervalo);
     }, function(){
-        cplay();
+        intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
     });
 
 
