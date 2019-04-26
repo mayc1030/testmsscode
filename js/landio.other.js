@@ -69,7 +69,7 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').hide();
 
-            cplay($(this));
+           // cplay($(this));
 
         });
 
@@ -80,7 +80,7 @@
             $('#carousel-contributions').fadeIn("slow");
             $('#carousel-developments').hide();
 
-            cplay($(this));
+           // cplay($(this));
 
         });
 
@@ -91,7 +91,7 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
 
-            cplay($(this));
+           // cplay($(this));
 
         });
 
