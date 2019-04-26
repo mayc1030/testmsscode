@@ -34,8 +34,10 @@
     let posicionActual = 1;
     let intervalo;
     let idselector;
+    let completeselector;
 
     function cplay(selector) {
+        completeselector = selector;
         idselector = selector.attr('class').split(' ')[1];
         clearInterval(intervalo);
         posicionActual = 1;
@@ -69,7 +71,7 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').hide();
 
-           // cplay($(this));
+            cplay($(this));
 
         });
 
@@ -80,7 +82,7 @@
             $('#carousel-contributions').fadeIn("slow");
             $('#carousel-developments').hide();
 
-           // cplay($(this));
+           cplay($(this));
 
         });
 
@@ -91,11 +93,17 @@
             $('#carousel-contributions').hide();
             $('#carousel-developments').fadeIn("slow");
 
-           // cplay($(this));
+            cplay($(this));
 
         });
 
     }
+
+    $(".carousel-inner").hover(function(){
+        clearInterval(intervalo);
+    }, function(){
+        cplay(completeselector);
+    });
 
 
     function start() {
