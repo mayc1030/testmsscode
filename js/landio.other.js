@@ -101,7 +101,7 @@
     $(".carousel-inner .carousel-item .h3").hover(function(){
         clearInterval(intervalo);
     }, function(){
-        intervalo = setInterval(changeView, 1000);
+        intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
     });
 
 
