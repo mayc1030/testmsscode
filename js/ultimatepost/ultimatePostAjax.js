@@ -27,9 +27,9 @@ function getDataCallbackultimateposts(domainurl,categoria){
 
         $.each(objc, function(key,value){
                 var indice = key;
-                $('<div class="carousel-item active"><blockquote class="blockquote contentdrupalnotes"><img src="img/myproyect1.jpg" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+ value.title +'</p><footer>My Profile</footer></blockquote></div>').appendTo($("#carousel-proyects .carousel-inner"));
+                $('<div class="carousel-item"><blockquote class="blockquote contentdrupalnotes"><img src="img/myproyect1.jpg" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+ value.title +'</p><footer>My Profile</footer></blockquote></div>').appendTo($("#carousel-proyects .carousel-inner"));
                 $('<li><img src="img/myproyect2.jpg" alt="Navigation avatar" data-target="#carousel-proyects" data-slide-to="'+ indice +'" class="img-fluid img-circle"></li>').appendTo($("#carousel-proyects .carousel-indicators"));
-
+                $("#carousel-proyects .carousel-inner div:first-child").addClass(" active");
         })
 
     }).fail(function(jqXHR,textStatus,textError){
