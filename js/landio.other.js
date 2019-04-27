@@ -42,7 +42,10 @@
         clearInterval(intervalo);
         posicionActual = 1;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
-        getDataCallbackultimateposts(domainurl,idselector);
+       if(getDataCallbackultimateposts(domainurl,idselector)) {
+           getstopSlide();
+       }
+
     }
 
     function changeView() {
@@ -105,6 +108,14 @@
         }, function(){
             intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
         });
+
+    function getstopSlide() {
+        $(".carousel-inner .carousel-item .h3").hover(function(){
+            clearInterval(intervalo);
+        }, function(){
+            intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+        });
+    }
 
 
     function start() {
