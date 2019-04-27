@@ -108,6 +108,8 @@
     function start() {
 
         hidecarruselproyect();
+        intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+
     }
 
     start();
