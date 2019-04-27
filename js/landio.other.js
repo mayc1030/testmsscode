@@ -30,7 +30,7 @@
     // @codekit-prepend "plugins/chart.js";
 
 
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 2000;
     let posicionActual = 1;
     let intervalo;
     let idselector = "proyects";
@@ -108,7 +108,7 @@
     function start() {
 
         hidecarruselproyect();
-       // intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+        intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
 
     }
 
