@@ -21,19 +21,19 @@ function getDataCallbackultimateposts(domainurl,categoria){
                 type:"POST",
                 url:url_ultimatepost
         }).done(function(data,textStatus,jqXHR){
-
+        console.log(data.title);
         var objc = JSON.parse(data);
-        
-        $.each(objc, function(key,value){
 
-                $.each(value, function(i,val){
-
-                        console.log( val.title);
-
-
-                })
-
-        })
+        // $.each(objc, function(key,value){
+        //
+        //         $.each(value, function(i,val){
+        //
+        //                 console.log( val.title);
+        //
+        //
+        //         })
+        //
+        // })
 
 
     }).fail(function(jqXHR,textStatus,textError){
