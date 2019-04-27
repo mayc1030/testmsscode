@@ -18,6 +18,7 @@ function getDataCallbackultimateposts(domainurl,categoria){
 
         $.ajax({
                 data: { locationurl:domainurl,id:categoria},
+                dataType: "json",
                 type:"POST",
                 url:url_ultimatepost
         }).done(function(data,textStatus,jqXHR){
