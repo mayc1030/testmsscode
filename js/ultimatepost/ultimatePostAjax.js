@@ -1,20 +1,34 @@
 
-// url para llamar la peticion por ajax
+// // url para llamar la peticion por ajax
+// var url_ultimatepost = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/ultimatepost.php";
+//
+// $( document ).ready(function() {
+//
+//         var categoria = 1;
+//         var domainurl=  $(location).attr("href");
+//         getDataCallbackultimateposts(domainurl,categoria);
+//
+// });
+
 var url_ultimatepost = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/ultimatepost.php";
-
-$( document ).ready(function() {
-
-        var categoria = 1;
-        var domainurl=  $(location).attr("href");
-        getDataCallbackultimateposts(domainurl,categoria);
-
-});
-
 
 //get_data_callback();
 // peticion ajax enviada como callback
-function getDataCallbackultimateposts(domainurl,categoria){
+function getDataCallbackultimateposts(domainurl,idselector){
 
+ var categoria = 0;
+
+    switch (idselector) {
+        case "proyects":
+            categoria = 1;
+            break;
+        case "contributions":
+            categoria = 2;
+            break;
+        case "developments":
+            categoria = 3;
+            break;
+    }
 
         $.ajax({
                 data: { locationurl:domainurl,id:categoria},

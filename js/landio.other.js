@@ -29,6 +29,7 @@
     // Donut Chart
     // @codekit-prepend "plugins/chart.js";
 
+    var domainurl=  $(location).attr("href");
 
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 2000;
     let posicionActual = 1;
@@ -40,7 +41,8 @@
         idselector = selector.attr('class').split(' ')[1];
         clearInterval(intervalo);
         posicionActual = 1;
-            intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+        intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+        getDataCallbackultimateposts(domainurl,idselector);
     }
 
     function changeView() {
