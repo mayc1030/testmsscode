@@ -30,7 +30,7 @@ function getDataCallbackultimateposts(domainurl,categoria){
 
                 $.each(value, function(i,val){
 
-                        console.log( val.title);
+                        console.log( value.title);
                        // console.log( val);
 
 

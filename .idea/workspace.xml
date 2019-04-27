@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -121,7 +121,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="25" />
     <option name="width" value="1344" />
     <option name="height" value="718" />
@@ -245,12 +245,12 @@
       <workItem from="1555035085434" duration="9653000" />
       <workItem from="1556155577201" duration="15853000" />
       <workItem from="1556201043843" duration="167000" />
-      <workItem from="1556326860684" duration="10193000" />
+      <workItem from="1556326860684" duration="10306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96241000" />
+    <option name="totallyTimeSpent" value="96354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -568,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
