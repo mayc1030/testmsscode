@@ -15,9 +15,11 @@ $( document ).ready(function() {
 function getDataCallbackultimateposts(categoria){
 
 
-    $.ajax({
-        url:url_ultimatepost
-    }).done(function(data,textStatus,jqXHR){
+        $.ajax({
+                data: { id:categoria},
+                type:"POST",
+                url:url_ultimatepost
+        }).done(function(data,textStatus,jqXHR){
 
         var objc = JSON.parse(data);
 
