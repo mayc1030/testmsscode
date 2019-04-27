@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/js/landio.other.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/landio.other.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/landio.other.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1256">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="109">
+              <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -251,12 +250,12 @@
       <workItem from="1556155577201" duration="15853000" />
       <workItem from="1556201043843" duration="167000" />
       <workItem from="1556326860684" duration="12744000" />
-      <workItem from="1556385660309" duration="9097000" />
+      <workItem from="1556385660309" duration="9356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107889000" />
+    <option name="totallyTimeSpent" value="108148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -576,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/landio.other.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1256">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="109">
+          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
         </state>
       </provider>
     </entry>
