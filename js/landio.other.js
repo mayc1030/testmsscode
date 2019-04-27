@@ -42,10 +42,11 @@
         clearInterval(intervalo);
         posicionActual = 1;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
-       if(getDataCallbackultimateposts(domainurl,idselector)) {
+
+           getDataCallbackultimateposts(domainurl,idselector)
            console.log("entro");
            getstopSlide();
-       }
+       
 
     }
 

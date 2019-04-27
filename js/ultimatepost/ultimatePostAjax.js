@@ -49,7 +49,6 @@ function getDataCallbackultimateposts(domainurl,idselector){
 
         });
 
-        return true;
 
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame");
