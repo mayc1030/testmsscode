@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/notices.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/ultimatepost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="84">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -32,10 +33,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
+        <entry file="file://$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,7 +108,6 @@
         <option value="$PROJECT_DIR$/_includes/headerblog.html" />
         <option value="$PROJECT_DIR$/_includes/navbarblog.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/css/landio.css" />
         <option value="$PROJECT_DIR$/css/flexslider.css" />
         <option value="$PROJECT_DIR$/_config.yml" />
@@ -106,6 +115,8 @@
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/js/landio.other.js" />
         <option value="$PROJECT_DIR$/_includes/frontdrupalnotes.html" />
+        <option value="$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js" />
+        <option value="$PROJECT_DIR$/_includes/scripts.html" />
       </list>
     </option>
   </component>
@@ -140,11 +151,6 @@
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
               <item name="bower_components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -157,6 +163,18 @@
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="individualdrupalnotes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="ultimatepost" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/ultimatepost" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -175,18 +193,18 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/ultimatepost" />
+      <recent name="$PROJECT_DIR$/_includes" />
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/posts" />
       <recent name="$PROJECT_DIR$/_includes" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/fonts" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,12 +241,12 @@
       <workItem from="1555035085434" duration="9653000" />
       <workItem from="1556155577201" duration="15853000" />
       <workItem from="1556201043843" duration="167000" />
-      <workItem from="1556326860684" duration="1711000" />
+      <workItem from="1556326860684" duration="4079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87759000" />
+    <option name="totallyTimeSpent" value="90127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -260,11 +278,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147853" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/vendor/fontawesome-free/css/all.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -420,9 +433,6 @@
     <entry file="file://$PROJECT_DIR$/js/jquery.flexslider-min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -479,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -514,19 +517,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotespaginator.min.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4091" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/ultimatepost.html">
@@ -536,10 +546,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
