@@ -6,7 +6,6 @@ $( document ).ready(function() {
 
         var categoria = 1;
         var domainurl=  $(location).attr("href");
-        console.log(domainurl);
         getDataCallbackultimateposts(domainurl,categoria);
 
 });
