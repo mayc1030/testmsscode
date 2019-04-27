@@ -38,10 +38,10 @@ function getDataCallbackultimateposts(domainurl,idselector){
         }).done(function(data,textStatus,jqXHR){
 
         var objc = JSON.parse(data);
-            console.log(objc.length);
+
         $.each(objc, function(key,value){
                 var indice = key;
-            if (!$('#carousel-'+ idselector +' .carousel-inner').find('div').length) {
+            if ($('#carousel-'+ idselector +' .carousel-inner').find('div').length <= objc.length) {
                 $('<div class="carousel-item"><blockquote class="blockquote"><img src="img/myproyect1.jpg" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+ value.title +'</p><footer>My Profile</footer></blockquote></div>').appendTo($("#carousel-"+ idselector +" .carousel-inner"));
                 $('<li><img src="img/myproyect2.jpg" alt="Navigation avatar" data-target="#carousel-'+ idselector +'" data-slide-to="'+ indice +'" class="img-fluid img-circle"></li>').appendTo($("#carousel-"+ idselector +" .carousel-indicators"));
                 $("#carousel-"+ idselector +" .carousel-inner div:first-child").addClass(" active");
