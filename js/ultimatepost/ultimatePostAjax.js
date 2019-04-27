@@ -5,7 +5,7 @@ var url_ultimatepost = "https://maycolsanchezsalazar.000webhostapp.com/cms/views
 $( document ).ready(function() {
 
         var categoria = 1;
-        var domainurl=window.location;
+        var domainurl= "hola";
         console.log(domainurl);
         getDataCallbackultimateposts(domainurl,categoria);
 
