@@ -16,8 +16,6 @@ function getDataCallbackultimateposts(categoria){
 
 
     $.ajax({
-        data: { id:categoria},
-        type:"GET",
         url:url_ultimatepost
     }).done(function(data,textStatus,jqXHR){
 
@@ -38,6 +36,6 @@ function getDataCallbackultimateposts(categoria){
         //
 
     }).fail(function(jqXHR,textStatus,textError){
-        alert("Error al realizar la peticion dame".textError);
+        alert("Error al realizar la peticion dame");
     });
 }
