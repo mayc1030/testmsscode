@@ -27,15 +27,8 @@ function getDataCallbackultimateposts(domainurl,categoria){
 
 
         $.each(objc, function(key,value){
-
-                $.each(value, function(i,val){
-
-                        console.log( value.title);
-                       // console.log( val);
-
-
-                })
-
+                console.log( key.title);
+                
         })
 
 
