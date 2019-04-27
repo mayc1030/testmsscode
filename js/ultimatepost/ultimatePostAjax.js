@@ -23,20 +23,18 @@ function getDataCallbackultimateposts(domainurl,categoria){
         }).done(function(data,textStatus,jqXHR){
 
         var objc = JSON.parse(data);
+        
+        $.each(objc, function(key,value){
 
-        console.log(objc.title);
+                $.each(value, function(i,val){
 
-        // $.each(objc, function(key,value){
-        //     if(key == "content"){
-        //         $.each(value, function(i,val){
-        //
-        //
-        //             $(".drupal-note").append(val.contenido);
-        //
-        //         })
-        //     }
-        // })
-        //
+                        console.log( val.title);
+
+
+                })
+
+        })
+
 
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame");
