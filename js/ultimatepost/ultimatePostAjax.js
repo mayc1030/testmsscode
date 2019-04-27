@@ -24,7 +24,7 @@ function getDataCallbackultimateposts(domainurl,categoria){
 
         var objc = JSON.parse(data);
 
-        console.log(objc);
+        console.log(objc.title);
 
         // $.each(objc, function(key,value){
         //     if(key == "content"){
