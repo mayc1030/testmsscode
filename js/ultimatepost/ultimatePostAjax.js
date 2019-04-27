@@ -1,6 +1,6 @@
 
 // url para llamar la peticion por ajax
-var url_ultimatepost = "https://dev-msscode.pantheonsite.io/ultimatepost/1";
+var url_ultimatepost = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/ultimatepost.php";
 
 $( document ).ready(function() {
 
