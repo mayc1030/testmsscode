@@ -29,7 +29,7 @@ function getDataCallbackultimateposts(domainurl,idselector){
             categoria = 3;
             break;
     }
-console.log(idselector);
+
         $.ajax({
                 data: { locationurl:domainurl,id:categoria},
                 dataType: "json",
@@ -42,7 +42,7 @@ console.log(idselector);
         $.each(objc, function(key,value){
                 var indice = key;
                 $('<div class="carousel-item"><blockquote class="blockquote"><img src="img/myproyect1.jpg" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+ value.title +'</p><footer>My Profile</footer></blockquote></div>').appendTo($("#carousel-"+ idselector +" .carousel-inner"));
-                $('<li><img src="img/myproyect2.jpg" alt="Navigation avatar" data-target="#carousel-'+ idselector +'" data-slide-to="'+ indice +'" class="img-fluid img-circle"></li>').appendTo($("#carousel-proyects .carousel-indicators"));
+                $('<li><img src="img/myproyect2.jpg" alt="Navigation avatar" data-target="#carousel-'+ idselector +'" data-slide-to="'+ indice +'" class="img-fluid img-circle"></li>').appendTo($("#carousel-"+ idselector +" .carousel-indicators"));
                 $("#carousel-"+ idselector +" .carousel-inner div:first-child").addClass(" active");
         })
 
