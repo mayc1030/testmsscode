@@ -162,6 +162,7 @@
     function start() {
 
         hidecarruselproyect();
+        $('#control_portafolio .nav-link.proyects').click();
        // intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
 
     }
