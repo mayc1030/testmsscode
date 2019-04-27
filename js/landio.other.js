@@ -100,12 +100,11 @@
 
     }
 
-    $(".carousel-inner .carousel-item .h3").hover(function(){
-        clearInterval(intervalo);
-        console.log("esto es u hover");
-    }, function(){
-        intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
-    });
+        $(".carousel-inner .carousel-item .h3").hover(function(){
+            clearInterval(intervalo);
+        }, function(){
+            intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+        });
 
 
     function start() {
