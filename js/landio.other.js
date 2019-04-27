@@ -148,6 +148,9 @@
                     $('<li><img src="img/myproyect2.jpg" alt="Navigation avatar" data-target="#carousel-'+ idselector +'" data-slide-to="'+ indice +'" class="img-fluid img-circle"></li>').appendTo($("#carousel-"+ idselector +" .carousel-indicators"));
                     $("#carousel-"+ idselector +" .carousel-inner div:first-child").addClass(" active");
                 }
+                if($('#carousel-'+ idselector +' .carousel-inner').find('div').length == 0){
+                    $('#carousel-'+idselector).remove();
+                }
 
             });
 
