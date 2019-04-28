@@ -55,9 +55,10 @@
             console.log(posicionActual+"---"+$("#carousel-"+ idselector+" .carousel-indicators li").size())
         } else {
             posicionActual++;
+            renderizarImagen();
         }
 
-        renderizarImagen();
+
 
     }
 
