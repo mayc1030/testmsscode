@@ -49,12 +49,13 @@
 
     function changeView() {
 
-        if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
+        if(posicionActual < $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
             posicionActual = 1;
+            clearInterval(intervalo);
         } else {
             posicionActual++;
         }
-        getDataCallbackultimateposts(domainurl,idselector)
+        getDataCallbackultimateposts(domainurl,idselector);
         renderizarImagen();
 
     }
