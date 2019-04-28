@@ -49,9 +49,8 @@
 
     function changeView() {
 
-        if(posicionActual < $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
+        if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
             posicionActual = 1;
-            clearInterval(intervalo);
         } else {
             posicionActual++;
         }
@@ -117,7 +116,7 @@
     //get_data_callback();
 // peticion ajax enviada como callback
     function getDataCallbackultimateposts(domainurl,idselector){
-
+        posicionActual = 1;
         var categoria = 0;
 
         switch (idselector) {
