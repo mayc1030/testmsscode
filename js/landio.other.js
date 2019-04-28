@@ -33,7 +33,7 @@
     var domainurl=  $(location).attr("href");
 
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
-    let posicionActual = 0;
+    let posicionActual = 1;
     let intervalo;
     let idselector = "proyects";
 
@@ -42,7 +42,7 @@
 
         idselector = selector.attr('class').split(' ')[1];
         clearInterval(intervalo);
-        posicionActual = 0;
+        posicionActual = 1;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
 
     }
@@ -51,7 +51,7 @@
         getDataCallbackultimateposts(domainurl,idselector);
         if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
             clearInterval(intervalo);
-            posicionActual = 0;
+            posicionActual = 1;
             console.log(posicionActual+"---"+$("#carousel-"+ idselector+" .carousel-indicators li").size())
         } else {
             posicionActual++;
