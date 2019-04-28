@@ -41,6 +41,7 @@
     function cplay(selector) {
 
         idselector = selector.attr('class').split(' ')[1];
+        getDataCallbackultimateposts(domainurl,idselector);
         clearInterval(intervalo);
         posicionActual = 1;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
@@ -48,7 +49,7 @@
     }
 
     function changeView() {
-        getDataCallbackultimateposts(domainurl,idselector);
+
         if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
             clearInterval(intervalo);
             posicionActual = 1;
