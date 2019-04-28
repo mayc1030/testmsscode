@@ -48,13 +48,14 @@
     }
 
     function changeView() {
-
+        getDataCallbackultimateposts(domainurl,idselector);
         if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
             posicionActual = 1;
+            console.log(posicionActual+"---"+$("#carousel-"+ idselector+" .carousel-indicators li").size())
         } else {
             posicionActual++;
         }
-        getDataCallbackultimateposts(domainurl,idselector)
+
         renderizarImagen();
 
     }
