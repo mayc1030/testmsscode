@@ -107,7 +107,7 @@
     }
 
 
-    function getstopSlide (){
+    function getstopSlide(){
         $(".carousel-inner .carousel-item .h3").hover(function(){
             clearInterval(intervalo);
         }, function(){
@@ -159,7 +159,7 @@ console.log(posicionActual+" en ajax");
             alert("Error al realizar la peticion dame");
         });
 
-       // getstopSlide();
+       getstopSlide();
     }
 
 
