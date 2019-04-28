@@ -157,7 +157,7 @@
             alert("Error al realizar la peticion dame");
         });
 
-        getstopSlide();
+       // getstopSlide();
     }
 
 
