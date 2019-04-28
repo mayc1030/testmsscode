@@ -32,7 +32,7 @@
     var url_ultimatepost = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/ultimatepost.php";
     var domainurl=  $(location).attr("href");
 
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 2000;
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
     let posicionActual = 1;
     let intervalo;
     let idselector = "proyects";
