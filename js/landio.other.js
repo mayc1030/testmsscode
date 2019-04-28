@@ -150,6 +150,7 @@
                 }
                 if($('#carousel-'+ idselector +' .carousel-inner').find('div').length == 0){
                     $('#carousel-'+idselector).remove();
+                    $('.nav-link '+idselector).remove();
                 }
 
             });
