@@ -138,7 +138,7 @@
             type:"POST",
             url:url_ultimatepost
         }).done(function(data,textStatus,jqXHR){
-
+console.log(posicionActual);
             var objc = JSON.parse(data);
 
             $.each(objc, function(key,value){
