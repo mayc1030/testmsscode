@@ -142,6 +142,7 @@
             var objc = JSON.parse(data);
 
             $.each(objc, function(key,value){
+                console.log(value.title);
                 var indice = key;
                 if ($('#carousel-'+ idselector +' .carousel-inner').find('div').length < objc.length) {
                     $('<div class="carousel-item"><blockquote class="blockquote"><img src="img/myproyect1.jpg" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+ value.title +'</p><footer>My Profile</footer></blockquote></div>').appendTo($("#carousel-"+ idselector +" .carousel-inner"));
