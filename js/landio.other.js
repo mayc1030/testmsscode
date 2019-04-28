@@ -140,7 +140,7 @@
             type:"POST",
             url:url_ultimatepost
         }).done(function(data,textStatus,jqXHR){
-console.log(posicionActual+" en ajax");
+            console.log(posicionActual+" en ajax");
             var objc = JSON.parse(data);
 
             $.each(objc, function(key,value){
@@ -155,11 +155,11 @@ console.log(posicionActual+" en ajax");
 
             });
 
+            getstopSlide();
         }).fail(function(jqXHR,textStatus,textError){
             alert("Error al realizar la peticion dame");
         });
 
-       getstopSlide();
     }
 
 
