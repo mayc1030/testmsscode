@@ -51,7 +51,6 @@
     function changeView() {
 
         if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
-            clearInterval(intervalo);
             posicionActual = 1;
             console.log(posicionActual+"---"+$("#carousel-"+ idselector+" .carousel-indicators li").size())
         } else {
