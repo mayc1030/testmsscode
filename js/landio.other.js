@@ -45,8 +45,6 @@
         posicionActual = 1;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
 
-        getDataCallbackultimateposts(domainurl,idselector)
-
     }
 
     function changeView() {
@@ -56,6 +54,7 @@
         } else {
             posicionActual++;
         }
+        getDataCallbackultimateposts(domainurl,idselector)
         renderizarImagen();
 
     }
@@ -138,7 +137,7 @@
             type:"POST",
             url:url_ultimatepost
         }).done(function(data,textStatus,jqXHR){
-console.log(posicionActual);
+console.log(posicionActual+" en ajax");
             var objc = JSON.parse(data);
 
             $.each(objc, function(key,value){
