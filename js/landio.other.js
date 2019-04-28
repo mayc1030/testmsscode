@@ -50,7 +50,8 @@
     function changeView() {
         getDataCallbackultimateposts(domainurl,idselector);
         if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
-            posicionActual = 1;
+            clearInterval(intervalo);
+            posicionActual = 0;
             console.log(posicionActual+"---"+$("#carousel-"+ idselector+" .carousel-indicators li").size())
         } else {
             posicionActual++;
