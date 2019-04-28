@@ -33,7 +33,7 @@
     var domainurl=  $(location).attr("href");
 
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
-    let posicionActual = 1;
+    let posicionActual = 0;
     let intervalo;
     let idselector = "proyects";
 
@@ -42,7 +42,7 @@
 
         idselector = selector.attr('class').split(' ')[1];
         clearInterval(intervalo);
-        posicionActual = 1;
+        posicionActual = 0;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
 
     }
