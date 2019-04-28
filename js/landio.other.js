@@ -45,6 +45,7 @@
         clearInterval(intervalo);
         posicionActual = 1;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+        getstopSlide();
 
     }
 
@@ -155,7 +156,6 @@
 
             });
 
-            getstopSlide();
         }).fail(function(jqXHR,textStatus,textError){
             alert("Error al realizar la peticion dame");
         });
