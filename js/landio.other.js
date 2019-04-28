@@ -45,7 +45,7 @@
         clearInterval(intervalo);
         posicionActual = 1;
         intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
-        getstopSlide();
+
 
     }
 
@@ -155,7 +155,11 @@
 
 
             });
-
+            $(".carousel-inner .carousel-item .h3").hover(function(){
+                clearInterval(intervalo);
+            }, function(){
+                intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
+            });
         }).fail(function(jqXHR,textStatus,textError){
             alert("Error al realizar la peticion dame");
         });
