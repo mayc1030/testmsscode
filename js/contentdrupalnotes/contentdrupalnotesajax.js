@@ -44,6 +44,7 @@ function get_data_callbackcontentdrupalnotes(){
         // genera el cuerpo de la tabla
         var cantidad = 0;
         var objc = JSON.parse(data);
+        console.log(objc);
 
         $.each(objc, function(key,value){
             if(key == "lista"){
@@ -69,18 +70,7 @@ function get_data_callbackcontentdrupalnotes(){
             if(cdnpagina==0){
                 creaPaginadorcontentdrupalnotes(cantidad);
             }
-     /*   $.each(lista, function(ind, elem){
 
-            $(".date-seccion").append("<div class='info'>El "+elem.fecha+"</div>");
-            $(".view-drupalnotes").append("<div class='info'><i class='fas fa-eye'></i> "+elem.visto+"</div>");
-            $(".download-drupalnotes").append("<div class='info'><i class='fas fa-download'></i> "+elem.descargado+"</div>");
-            $(".bullhorn-drupalnotes").append("<div class='info'><i class='fas fa-bullhorn'></i> "+elem.compartido+"</div>");
-            $(".author-seccion").append("<div class='info'>Publicado por "+elem.usuario+"</div>");
-            $(".linkdownload-drupalnotes").append("<div class='info'><a href='files/"+elem.titulo+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>");
-
-          $('<blockquote class="blockquote contentdrupalnotes"><img src="backend/'+elem.ruta+'" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+elem.titulo+'</p><footer>'+elem.introduccion+'</footer><a class="nav-link developments btn-drupalnotes btn-drupalnotes-outline" href="drupalnotes.php?id='+elem.id+'" role="button"><span class="icon-spinner5"></span><small>my</small> Leer Más</a></blockquote>').appendTo($(".fcontentdrupalnotes"));
-
-        });*/
 
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame".textError);
