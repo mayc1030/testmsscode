@@ -1,6 +1,6 @@
 
 // url para llamar la peticion por ajax
-var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllDrupalNotes.php";
+var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/clDrupalNotes.php";
 
 $( document ).ready(function() {
 
@@ -49,15 +49,15 @@ function get_data_callbackcontentdrupalnotes(){
             if(key == "lista"){
                 $.each(value, function(i,val){
 
-                    $(".date-seccion").append("<div class='info'>El</div>");
-                    $(".view-drupalnotes").append("<div class='info'><i class='fas fa-eye'></i> </div>");
-                    $(".download-drupalnotes").append("<div class='info'><i class='fas fa-download'></i> </div>");
-                    $(".bullhorn-drupalnotes").append("<div class='info'><i class='fas fa-bullhorn'></i> </div>");
-                    $(".author-seccion").append("<div class='info'>Publicado por </div>");
-                    $(".linkdownload-drupalnotes").append("<div class='info'><a href='files/"+val.title+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>");
+                    $(".date-seccion").append("<div class='info'>El "+val.fecha+"</div>");
+                    $(".view-drupalnotes").append("<div class='info'><i class='fas fa-eye'></i> "+val.visto+"</div>");
+                    $(".download-drupalnotes").append("<div class='info'><i class='fas fa-download'></i> "+val.descargado+"</div>");
+                    $(".bullhorn-drupalnotes").append("<div class='info'><i class='fas fa-bullhorn'></i> "+val.compartido+"</div>");
+                    $(".author-seccion").append("<div class='info'>Publicado por "+val.usuario+"</div>");
+                    $(".linkdownload-drupalnotes").append("<div class='info'><a href='files/"+val.titulo+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>");
 
 
-                    $('<blockquote class="blockquote contentdrupalnotes"><img src="backend/" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+val.titulo+'</p><footer></footer><a class="nav-link developments btn-drupalnotes btn-drupalnotes-outline" href="drupalnotes?id='+val.nid+'" role="button"><span class="icon-spinner5"></span><small>my</small> Leer Más</a></blockquote>').appendTo($(".fcontentdrupalnotes"));
+                    $('<blockquote class="blockquote contentdrupalnotes"><img src="backend/'+val.ruta+'" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+val.titulo+'</p><footer>'+val.introduccion+'</footer><a class="nav-link developments btn-drupalnotes btn-drupalnotes-outline" href="drupalnotes?id='+val.id+'" role="button"><span class="icon-spinner5"></span><small>my</small> Leer Más</a></blockquote>').appendTo($(".fcontentdrupalnotes"));
 
                 })
             }
