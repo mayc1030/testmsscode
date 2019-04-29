@@ -45,7 +45,6 @@ function get_data_callbackcontentdrupalnotes(){
         var cantidad = 0;
        // var objc = JSON.parse(data);
         var objc =  JSON.parse(JSON.stringify(data));
-        console.log(objc);
         
         $.each(JSON.parse(objc), function(key,value){
             if(key == "lista"){
@@ -59,7 +58,7 @@ function get_data_callbackcontentdrupalnotes(){
                     $(".linkdownload-drupalnotes").append("<div class='info'><a href='files/"+val.title+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>");
 
 
-                    $('<blockquote class="blockquote contentdrupalnotes"><img src="backend/" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+val.titulo+'</p><footer></footer><a class="nav-link developments btn-drupalnotes btn-drupalnotes-outline" href="drupalnotes?id='+val.nid+'" role="button"><span class="icon-spinner5"></span><small>my</small> Leer Más</a></blockquote>').appendTo($(".fcontentdrupalnotes"));
+                    $('<blockquote class="blockquote contentdrupalnotes"><img src="backend/" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3">'+val.title+'</p><footer></footer><a class="nav-link developments btn-drupalnotes btn-drupalnotes-outline" href="drupalnotes?id='+val.nid+'" role="button"><span class="icon-spinner5"></span><small>my</small> Leer Más</a></blockquote>').appendTo($(".fcontentdrupalnotes"));
 
                 })
             }
