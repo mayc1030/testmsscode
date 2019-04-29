@@ -24,6 +24,7 @@ function get_data_callbackcontentdrupalnotes(){
             limit: cdnitemsPorPagina,
             offset: cdndesde,
         },
+        dataType: "json",
         type:"POST",
         url:url_contentdrupalnotes
     }).done(function(data,textStatus,jqXHR){
