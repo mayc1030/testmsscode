@@ -45,7 +45,7 @@ function get_data_callbackcontentdrupalnotes(){
         var cantidad = 0;
        // var objc = JSON.parse(data);
         var objc =  JSON.parse(JSON.stringify(data));
-        
+
         $.each(JSON.parse(objc), function(key,value){
             if(key == "lista"){
                 $.each(value, function(i,val){
