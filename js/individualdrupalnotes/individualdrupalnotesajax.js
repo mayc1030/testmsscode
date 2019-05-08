@@ -33,7 +33,7 @@ function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
 
 
     $.ajax({
-        data: { id:id_drupalnote},
+        data: {locationurl:domainurl,id:id_drupalnote},
         type:"POST",
         url:url_individualcontentdrupalnotes
     }).done(function(data,textStatus,jqXHR){
@@ -41,14 +41,14 @@ function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
         var objc = JSON.parse(data);
 
         $.each(objc, function(key,value){
-            if(key == "content"){
+
                 $.each(value, function(i,val){
 
 
                     $(".drupal-note").append(val.body);
 
                 })
-            }
+
         }),
             setTimeout(function(){
                 /* PrismJS 1.11.0
