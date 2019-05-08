@@ -34,6 +34,7 @@ function getDataCallbackIdividualContentDrupalnotes(id_drupalnote){
 
         $.ajax({
                 data: {locationurl:domainurl,id:id_drupalnote},
+                dataType: "json",
                 type:"POST",
                 url:url_individualcontentdrupalnotes
         }).done(function(data,textStatus,jqXHR){
