@@ -59,7 +59,7 @@
 
         });
 
-        $('#control_portafolio .nav-link.contributions').click(function() {
+        $('#control_portafolio .nav-link.nintendo-swich').click(function() {
             $(this).addClass("intro");
 
             $('#carousel-drupal-notes').hide();
