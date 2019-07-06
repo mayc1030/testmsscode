@@ -14,7 +14,7 @@
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
     let posicionActual = 1;
     let intervalo;
-    let idselector = "proyects";
+    let idselector = "drupalnotes";
 
 
     function cplay(selector) {
@@ -99,13 +99,13 @@
         var categoria = 0;
 
         switch (idselector) {
-            case "proyects":
+            case "drupalnotes":
                 categoria = 1;
                 break;
-            case "contributions":
+            case "nintendoswich":
                 categoria = 2;
                 break;
-            case "developments":
+            case "ubuntu":
                 categoria = 3;
                 break;
         }
