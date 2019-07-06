@@ -8908,6 +8908,7 @@ a.bg-danger:hover {
 .section-features,
 .section-pricing,
 .section-testimonials,
+.section-ultimate-post,
 .section-text,
 .section-signup {
     padding-top: 2.8125rem
@@ -8936,6 +8937,7 @@ a.bg-danger:hover {
     .section-features,
     .section-pricing,
     .section-testimonials,
+    .section-ultimate-post,
     .section-text,
     .section-signup {
         padding-top: 5.625rem
@@ -9094,6 +9096,16 @@ a.bg-danger:hover {
     .section-testimonials .nav-link:hover {
         color: #424753
     }
+
+    .section-ultimate-post .nav-link {
+        padding: 1rem;
+        color: #6f788c
+    }
+    .section-ultimate-post .nav-link:focus,
+    .section-ultimate-post .nav-link:hover {
+        color: #424753
+    }
+
 }
 
 .navbar-fixed-top {
@@ -10048,6 +10060,108 @@ figure {
 }
 
 .section-testimonials .carousel-indicators li.active img {
+    width: 56px;
+    height: 56px;
+    margin-top: 0;
+    border: 4px solid #fff
+}
+
+
+
+
+.section-ultimate-post {
+
+}
+
+.section-ultimate-post .blockquote {
+    margin: 0 auto 2rem;
+    border-left: 0 none
+}
+
+@media (min-width: 768px) {
+    .section-ultimate-post .blockquote {
+        max-width: 60rem;
+        margin-bottom: 4.5rem
+    }
+}
+
+.section-ultimate-post .blockquote>img {
+    margin-bottom: 1.5625rem;
+    border: 4px solid #fff
+}
+
+.section-ultimate-post .blockquote p {
+    margin-bottom: .9375rem;
+    font-weight: 400;
+    line-height: 1.464
+}
+
+.section-ultimate-post .blockquote p:before {
+    content: '\201c'
+}
+
+.section-ultimate-post .blockquote p:after {
+    content: '\201d'
+}
+
+.section-ultimate-post .blockquote footer {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.1875;
+    color: #fff
+}
+
+.section-ultimate-post .blockquote footer:before {
+    content: ''
+}
+
+.section-ultimate-post .blockquote footer:after {
+    display: block;
+    width: 2.5rem;
+    height: 1px;
+    margin: .625rem auto 0;
+    content: '';
+    background-color: rgba(255, 255, 255, 0.25)
+}
+
+.section-ultimate-post .carousel-indicators {
+    position: inherit;
+    bottom: auto;
+    left: 280px;
+    width: 50%;
+    margin: 0 0 2.1875rem
+}
+
+.section-ultimate-post .carousel-indicators img {
+    width: 45px;
+    height: 45px;
+    margin: 5.5px auto 0;
+    border: 3px solid #fff;
+    transition: all .1s ease-in-out
+}
+
+.section-ultimate-post .carousel-indicators li {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    text-indent: inherit;
+    border: 0;
+    border-radius: 0;
+    opacity: .5;
+    transition: opacity .2s
+}
+
+.section-ultimate-post .carousel-indicators li:hover {
+    opacity: .9
+}
+
+.section-ultimate-post .carousel-indicators li.active {
+    margin: 0;
+    background-color: transparent;
+    opacity: 1
+}
+
+.section-ultimate-post .carousel-indicators li.active img {
     width: 56px;
     height: 56px;
     margin-top: 0;
