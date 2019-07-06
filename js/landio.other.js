@@ -140,7 +140,7 @@
 
     function start() {
         hidecarruselproyect();
-        $('#control_portafolio .nav-link.proyects').click();
+        $('#control_portafolio .nav-link.drupalnotes').click();
     }
 
     start();
