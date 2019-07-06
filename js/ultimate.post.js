@@ -45,14 +45,14 @@
 
 
     function hidecarruselproyect() {
-        $('#carousel-contributions').hide();
+        $('#carousel-nintendo-swich').hide();
         $('#carousel-developments').hide();
 
         $('#control_portafolio .nav-link.drupal-notes').click(function() {
             $(this).addClass("intro");
 
             $('#carousel-drupal-notes').fadeIn("slow");
-            $('#carousel-contributions').hide();
+            $('#carousel-nintendo-swich').hide();
             $('#carousel-developments').hide();
 
             cplay($(this));
@@ -63,7 +63,7 @@
             $(this).addClass("intro");
 
             $('#carousel-drupal-notes').hide();
-            $('#carousel-contributions').fadeIn("slow");
+            $('#carousel-nintendo-swich').fadeIn("slow");
             $('#carousel-developments').hide();
 
            cplay($(this));
@@ -74,7 +74,7 @@
             $(this).addClass("intro");
 
             $('#carousel-drupal-notes').hide();
-            $('#carousel-contributions').hide();
+            $('#carousel-nintendo-swich').hide();
             $('#carousel-developments').fadeIn("slow");
 
             cplay($(this));
@@ -102,7 +102,7 @@
             case "drupal-notes":
                 categoria = 1;
                 break;
-            case "contributions":
+            case "nintendo-swich":
                 categoria = 2;
                 break;
             case "developments":

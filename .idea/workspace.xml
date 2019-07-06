@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/ultimate.post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/ultimatepost.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/ultimatepost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ultimate.post.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ultimate.post.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/ultimatepost.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="413">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/ultimate.post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-643">
-              <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+            <state relative-caret-position="245">
+              <caret line="108" column="30" lean-forward="true" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -223,12 +221,12 @@
       <workItem from="1556726805194" duration="376000" />
       <workItem from="1557280610932" duration="3178000" />
       <workItem from="1559697737904" duration="31000" />
-      <workItem from="1562379725439" duration="5048000" />
+      <workItem from="1562379725439" duration="5824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138771000" />
+    <option name="totallyTimeSpent" value="139547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -556,15 +554,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/ultimatepost.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="413">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ultimate.post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643">
-          <caret line="101" column="30" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
+        <state relative-caret-position="245">
+          <caret line="108" column="30" lean-forward="true" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
         </state>
       </provider>
     </entry>
