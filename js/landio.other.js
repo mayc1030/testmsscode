@@ -45,37 +45,37 @@
 
 
     function hidecarruselproyect() {
-        $('#carousel-contributions').hide();
-        $('#carousel-developments').hide();
+        $('#carousel-nintendoswich').hide();
+        $('#carousel-ubuntu').hide();
 
-        $('#control_portafolio .nav-link.proyects').click(function() {
+        $('#control_portafolio .nav-link.drupalnotes').click(function() {
             $(this).addClass("intro");
 
-            $('#carousel-proyects').fadeIn("slow");
-            $('#carousel-contributions').hide();
-            $('#carousel-developments').hide();
+            $('#carousel-drupalnotes').fadeIn("slow");
+            $('#carousel-nintendoswich').hide();
+            $('#carousel-ubuntu').hide();
 
             cplay($(this));
 
         });
 
-        $('#control_portafolio .nav-link.contributions').click(function() {
+        $('#control_portafolio .nav-link.nintendoswich').click(function() {
             $(this).addClass("intro");
 
-            $('#carousel-proyects').hide();
-            $('#carousel-contributions').fadeIn("slow");
-            $('#carousel-developments').hide();
+            $('#carousel-drupalnotes').hide();
+            $('#carousel-nintendoswich').fadeIn("slow");
+            $('#carousel-ubuntu').hide();
 
            cplay($(this));
 
         });
 
-        $('#control_portafolio .nav-link.developments').click(function() {
+        $('#control_portafolio .nav-link.ubuntu').click(function() {
             $(this).addClass("intro");
 
-            $('#carousel-proyects').hide();
-            $('#carousel-contributions').hide();
-            $('#carousel-developments').fadeIn("slow");
+            $('#carousel-drupalnotes').hide();
+            $('#carousel-nintendoswich').hide();
+            $('#carousel-ubuntu').fadeIn("slow");
 
             cplay($(this));
 
