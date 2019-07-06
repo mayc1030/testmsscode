@@ -10070,7 +10070,8 @@ figure {
 
 
 .section-ultimate-post {
-
+    background: #312f38 url(../img/bg-ultimate-post.jpg) no-repeat center bottom;
+    background-size: cover
 }
 
 .section-ultimate-post .blockquote {

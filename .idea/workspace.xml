@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/ultimatepost.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/ultimatepost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-ultimate-post.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/landio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landio.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="696">
               <caret line="29" column="17" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="36" />
             </state>
           </provider>
@@ -39,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/landio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10072" selection-start-line="10072" selection-end-line="10072" />
+            <state relative-caret-position="436">
+              <caret line="10072" column="23" selection-start-line="10072" selection-start-column="23" selection-end-line="10072" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -48,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ultimate.post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+            <state relative-caret-position="125">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -139,9 +140,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="1355" />
-    <option name="height" value="720" />
+    <option name="x" value="952" />
+    <option name="y" value="50" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,6 +169,11 @@
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
@@ -200,6 +207,7 @@
       <recent name="$PROJECT_DIR$/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sites\testmsscode\img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/posts" />
@@ -246,12 +254,12 @@
       <workItem from="1556726805194" duration="376000" />
       <workItem from="1557280610932" duration="3178000" />
       <workItem from="1559697737904" duration="31000" />
-      <workItem from="1562379725439" duration="7144000" />
+      <workItem from="1562379725439" duration="8315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140867000" />
+    <option name="totallyTimeSpent" value="142038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -284,39 +292,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/vendor/startbootstrap-clean-blog/scss/_post.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="109537" selection-start-line="5" selection-start-column="109529" selection-end-line="5" selection-end-column="109537" />
-          <folding>
-            <element signature="e#25977#26211#2" expanded="true" />
-            <element signature="e#26816#26969#1" expanded="true" />
-            <element signature="e#27009#27243#1" expanded="true" />
-            <element signature="e#30336#30612#2" expanded="true" />
-            <element signature="e#31245#31398#1" expanded="true" />
-            <element signature="e#31438#31714#1" expanded="true" />
-            <element signature="e#61310#61497#2" expanded="true" />
-            <element signature="e#61726#61862#2" expanded="true" />
-            <element signature="e#62265#62398#2" expanded="true" />
-            <element signature="e#63869#64022#1" expanded="true" />
-            <element signature="e#76076#76306#2" expanded="true" />
-            <element signature="e#77173#77409#2" expanded="true" />
-            <element signature="e#104435#104612#2" expanded="true" />
-            <element signature="e#104658#104835#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-28-exploration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/education.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -331,9 +306,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/bg-headerprofile.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg-headerblog.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/interests.html">
@@ -563,20 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ultimate.post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/ultimatepost.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -584,10 +542,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-header-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-headerblog.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg-testimonials.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ultimate.post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/landio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10072" selection-start-line="10072" selection-end-line="10072" />
+        <state relative-caret-position="436">
+          <caret line="10072" column="23" selection-start-line="10072" selection-start-column="23" selection-end-line="10072" selection-end-column="23" />
         </state>
       </provider>
     </entry>
