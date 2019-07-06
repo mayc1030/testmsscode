@@ -14,7 +14,7 @@
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 3000;
     let posicionActual = 1;
     let intervalo;
-    let idselector = "drupalnotes";
+    let idselector = "proyects";
 
 
     function cplay(selector) {
@@ -45,37 +45,37 @@
 
 
     function hidecarruselproyect() {
-        $('#carousel-nintendoswich').hide();
-        $('#carousel-ubuntu').hide();
+        $('#carousel-contributions').hide();
+        $('#carousel-developments').hide();
 
-        $('#control_portafolio .nav-link.drupalnotes').click(function() {
+        $('#control_portafolio .nav-link.proyects').click(function() {
             $(this).addClass("intro");
 
-            $('#carousel-drupalnotes').fadeIn("slow");
-            $('#carousel-nintendoswich').hide();
-            $('#carousel-ubuntu').hide();
+            $('#carousel-proyects').fadeIn("slow");
+            $('#carousel-contributions').hide();
+            $('#carousel-developments').hide();
 
             cplay($(this));
 
         });
 
-        $('#control_portafolio .nav-link.nintendoswich').click(function() {
+        $('#control_portafolio .nav-link.contributions').click(function() {
             $(this).addClass("intro");
 
-            $('#carousel-drupalnotes').hide();
-            $('#carousel-nintendoswich').fadeIn("slow");
-            $('#carousel-ubuntu').hide();
+            $('#carousel-proyects').hide();
+            $('#carousel-contributions').fadeIn("slow");
+            $('#carousel-developments').hide();
 
            cplay($(this));
 
         });
 
-        $('#control_portafolio .nav-link.ubuntu').click(function() {
+        $('#control_portafolio .nav-link.developments').click(function() {
             $(this).addClass("intro");
 
-            $('#carousel-drupalnotes').hide();
-            $('#carousel-nintendoswich').hide();
-            $('#carousel-ubuntu').fadeIn("slow");
+            $('#carousel-proyects').hide();
+            $('#carousel-contributions').hide();
+            $('#carousel-developments').fadeIn("slow");
 
             cplay($(this));
 
@@ -99,13 +99,13 @@
         var categoria = 0;
 
         switch (idselector) {
-            case "drupalnotes":
+            case "proyects":
                 categoria = 1;
                 break;
-            case "nintendoswich":
+            case "contributions":
                 categoria = 2;
                 break;
-            case "ubuntu":
+            case "developments":
                 categoria = 3;
                 break;
         }
@@ -140,7 +140,7 @@
 
     function start() {
         hidecarruselproyect();
-        $('#control_portafolio .nav-link.drupalnotes').click();
+        $('#control_portafolio .nav-link.proyects').click();
     }
 
     start();
