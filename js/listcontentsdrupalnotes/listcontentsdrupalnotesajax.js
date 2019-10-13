@@ -1,6 +1,6 @@
 
 // url para llamar la peticion por ajax
-var url_listcontentdrupalnotes= "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/clDrupalNotes.php";
+var url_listcontentdrupalnotes= "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllDrupalNotes.php";
 
 $('#carousel-list-content-drupalnotes').hide();
 $('#control_menu_list_drupalnotes .nav-link.drupalnotes').click(function() {
