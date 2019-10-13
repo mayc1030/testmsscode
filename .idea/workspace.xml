@@ -20,8 +20,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="144">
+              <caret line="48" column="130" lean-forward="true" selection-start-line="48" selection-start-column="130" selection-end-line="48" selection-end-column="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -232,12 +241,12 @@
       <workItem from="1559697737904" duration="31000" />
       <workItem from="1562379725439" duration="8315000" />
       <workItem from="1565982689185" duration="12000" />
-      <workItem from="1570983365856" duration="4427000" />
+      <workItem from="1570983365856" duration="5229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146477000" />
+    <option name="totallyTimeSpent" value="147279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -321,11 +330,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/read_time.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footers.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -552,10 +556,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="48" column="130" lean-forward="true" selection-start-line="48" selection-start-column="130" selection-end-line="48" selection-end-column="130" />
         </state>
       </provider>
     </entry>
