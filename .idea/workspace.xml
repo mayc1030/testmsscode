@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="48" column="130" lean-forward="true" selection-start-line="48" selection-start-column="130" selection-end-line="48" selection-end-column="130" />
+              <caret line="48" column="124" selection-start-line="48" selection-start-column="124" selection-end-line="48" selection-end-column="124" />
             </state>
           </provider>
         </entry>
@@ -241,12 +241,12 @@
       <workItem from="1559697737904" duration="31000" />
       <workItem from="1562379725439" duration="8315000" />
       <workItem from="1565982689185" duration="12000" />
-      <workItem from="1570983365856" duration="5229000" />
+      <workItem from="1570983365856" duration="5360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147279000" />
+    <option name="totallyTimeSpent" value="147410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -566,7 +566,7 @@
     <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="48" column="130" lean-forward="true" selection-start-line="48" selection-start-column="130" selection-end-line="48" selection-end-column="130" />
+          <caret line="48" column="124" selection-start-line="48" selection-start-column="124" selection-end-line="48" selection-end-column="124" />
         </state>
       </provider>
     </entry>

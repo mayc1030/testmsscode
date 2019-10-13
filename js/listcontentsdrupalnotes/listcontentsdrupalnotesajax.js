@@ -46,7 +46,7 @@ function get_data_callbacklistcontentdrupalnotes(){
             if(key == "lista"){
                 $.each(value, function(i,val){
 
-                    $(".img-listdrupalnotes").append("<div class='info-img'><a  href='drupalnotes?id="+val.nid+"'><img src='../../img/msscode.png' height='30' width='30' alt='Avatar' class='img-circle'></a></div>").fadeIn();
+                    $(".img-listdrupalnotes").append("<div class='info-img'><a  href='drupalnotes?id="+val.nid+"'><img src='img/msscode.png' height='30' width='30' alt='Avatar' class='img-circle'></a></div>").fadeIn();
                     $(".linkdownload-ldrupalnotes").append("<div class='info'><a href='files/"+val.title+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>").fadeIn();
 
                     $('<tr>'+
