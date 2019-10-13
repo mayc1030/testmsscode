@@ -52,7 +52,7 @@ function get_data_callbacklistcontentdrupalnotes(){
                     $('<tr>'+
 
                         '<td>'+val.title+'</td>'+
-                        '<td><a class="nav-link btn-menu-content btn-menu-content-outline" href="drupalnotes?id='+val.nid+'" role="button"><span class="icon-spinner5"></span>Leer Más</a></td>'+
+                        '<td><a class="nav-link btn-menu-content btn-menu-content-outline" href="drupalnotes?id='+val.nid+'" role="button" target="_blank"><span class="icon-spinner5"></span>Leer Más</a></td>'+
                         '</tr>').appendTo($(".flistcontentdrupalnotes"));
                 })
             }
