@@ -17,40 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/landio.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="11057" column="1" selection-start-line="11057" selection-start-column="1" selection-end-line="11057" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="116" selection-start-line="2" selection-start-column="116" selection-end-line="2" selection-end-column="116" />
+            <state relative-caret-position="-168">
+              <caret line="44" column="41" lean-forward="true" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+        <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -168,6 +148,12 @@
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="contentdrupalnotes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -246,12 +232,12 @@
       <workItem from="1559697737904" duration="31000" />
       <workItem from="1562379725439" duration="8315000" />
       <workItem from="1565982689185" duration="12000" />
-      <workItem from="1570983365856" duration="3112000" />
+      <workItem from="1570983365856" duration="3791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145162000" />
+    <option name="totallyTimeSpent" value="145841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -427,13 +413,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js" />
-    <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252">
@@ -566,10 +545,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="116" selection-start-line="2" selection-start-column="116" selection-end-line="2" selection-end-column="116" />
+        <state relative-caret-position="-168">
+          <caret line="44" column="41" lean-forward="true" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
         </state>
       </provider>
     </entry>

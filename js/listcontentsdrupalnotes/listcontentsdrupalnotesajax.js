@@ -46,13 +46,13 @@ function get_data_callbacklistcontentdrupalnotes(){
             if(key == "lista"){
                 $.each(value, function(i,val){
 
-                    $(".img-listdrupalnotes").append("<div class='info-img'><a  href='drupalnotes.php?id="+val.id+"'><img src='backend/"+val.ruta+"' height='30' width='30' alt='Avatar' class='img-circle'></a></div>").fadeIn();
-                    $(".linkdownload-ldrupalnotes").append("<div class='info'><a href='files/"+val.titulo+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>").fadeIn();
+                    $(".img-listdrupalnotes").append("<div class='info-img'><a  href='drupalnotes.php?id="+val.nid+"'><img src='backend/"+val.ruta+"' height='30' width='30' alt='Avatar' class='img-circle'></a></div>").fadeIn();
+                    $(".linkdownload-ldrupalnotes").append("<div class='info'><a href='files/"+val.title+".pdf' target='_blank'><i class='fas fa-cloud-download-alt'></i></a></div>").fadeIn();
 
                     $('<tr>'+
 
                         '<td>'+val.titulo+'</td>'+
-                        '<td><a class="nav-link btn-menu-content btn-menu-content-outline" href="drupalnotes.php?id='+val.id+'" role="button"><span class="icon-spinner5"></span>Leer Más</a></td>'+
+                        '<td><a class="nav-link btn-menu-content btn-menu-content-outline" href="drupalnotes.php?id='+val.nid+'" role="button"><span class="icon-spinner5"></span>Leer Más</a></td>'+
 
                         '</tr>').appendTo($(".flistcontentdrupalnotes"));
                 })
