@@ -20,7 +20,7 @@ function get_data_subcategory(id_category){
         let objsubcategory = JSON.parse(data);
 
         $.each(objsubcategory, function(key,value){
-            $('<a class="nav-link '+value.tid+' btn-subcategory btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
+            $('<a class="nav-link '+value.tid+' btn-subcategory btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($(".componente-icon-list"));
         });
 
 
