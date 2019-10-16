@@ -4,13 +4,12 @@ var url_categories = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/a
 
 $( document ).ready(function() {
     get_data_category();
-    setTimeout(function(){ 
+    setTimeout(function(){
     $(".btn-category").click(function(){
-        init_contentdrupalnotes();
-        console.log("hd3llo world");
+       var id_category = $('.btn-category').attr('class').split(' ')[1];
+        init_contentdrupalnotes(id_category);
     });
     }, 3000);
-    console.log("h3llo world");
 });
 
 function get_data_category(){

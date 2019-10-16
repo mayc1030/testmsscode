@@ -3,12 +3,12 @@
 var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllPostforCategory.php";
 
 //$( document ).ready(function() {
-function init_contentdrupalnotes(){
+function init_contentdrupalnotes(id_c){
 
     // se genera el paginadorcontentdrupalnotes
     paginadorcontentdrupalnotes = $(".paginationcontentdrupalnotes");
     // cantidad de items por cdnpagina
-    var items = 1, numeros =4, id_category = 2;
+    var items = 1, numeros =4, id_category = id_c;
     // inicia el paginadorcontentdrupalnotes
     init_paginator_contentdrupalnotes(paginadorcontentdrupalnotes,items,numeros, id_category);
     // se envia la peticion ajax que se realizara como callback
