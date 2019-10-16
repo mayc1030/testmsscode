@@ -1,10 +1,11 @@
 
 // url para llamar la peticion por ajax
-var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllDrupalNotes.php";
+var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllPostforCategory.php";
 
 $( document ).ready(function() {
 
     get_data_category();
+    var id_category = 1;
     // se genera el paginadorcontentdrupalnotes
     paginadorcontentdrupalnotes = $(".paginationcontentdrupalnotes");
     // cantidad de items por cdnpagina
@@ -12,16 +13,17 @@ $( document ).ready(function() {
     // inicia el paginadorcontentdrupalnotes
     init_paginator_contentdrupalnotes(paginadorcontentdrupalnotes,items,numeros);
     // se envia la peticion ajax que se realizara como callback
-    set_callbackcontentdrupalnotes(get_data_callbackcontentdrupalnotes);
+    set_callbackcontentdrupalnotes(get_data_callbackcontentdrupalnotes(id_category));
     cargaPaginacontentdrupalnotes(0);
 });
 
 //get_data_callback();
 // peticion ajax enviada como callback
-function get_data_callbackcontentdrupalnotes(){
+function get_data_callbackcontentdrupalnotes(id_category){
 
     $.ajax({
         data:{
+            id:id_category,
             limit: cdnitemsPorPagina,
             offset: cdndesde,
         },
