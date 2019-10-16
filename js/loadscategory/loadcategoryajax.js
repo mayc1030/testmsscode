@@ -2,7 +2,7 @@
 // url para llamar la peticion por ajax
 var url_categories = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/loadcategory.php";
 
-function get_data_categoty(){
+function get_data_category(){
 
     $.ajax({
         dataType: "json",
