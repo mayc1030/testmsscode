@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,29 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="54" column="154" selection-start-line="54" selection-start-column="154" selection-end-line="54" selection-end-column="154" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="48">
+              <caret line="2" column="96" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -115,7 +107,6 @@
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/_includes/proyects.html" />
         <option value="$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js" />
-        <option value="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" />
         <option value="$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js" />
         <option value="$PROJECT_DIR$/js/landio.other.js" />
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
@@ -124,6 +115,7 @@
         <option value="$PROJECT_DIR$/css/landio.css" />
         <option value="$PROJECT_DIR$/_includes/frontdrupalnotes.html" />
         <option value="$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js" />
+        <option value="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" />
       </list>
     </option>
   </component>
@@ -133,7 +125,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="50" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -144,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,18 +233,19 @@
       <workItem from="1559697737904" duration="31000" />
       <workItem from="1562379725439" duration="8315000" />
       <workItem from="1565982689185" duration="12000" />
-      <workItem from="1570983365856" duration="5980000" />
+      <workItem from="1570983365856" duration="6580000" />
+      <workItem from="1571191843363" duration="706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148030000" />
+    <option name="totallyTimeSpent" value="149336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2080537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,13 +410,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ultimatepost/ultimatePostAjax.js" />
-    <entry file="file://$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -549,24 +535,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
+    <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="288">
+          <caret line="54" column="154" selection-start-line="54" selection-start-column="154" selection-end-line="54" selection-end-column="154" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="37" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
+    <entry file="file://$PROJECT_DIR$/js/individualdrupalnotes/individualdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="54" column="154" selection-start-line="54" selection-start-column="154" selection-end-line="54" selection-end-column="154" />
+        <state relative-caret-position="24">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="96" selection-start-line="2" selection-start-column="96" selection-end-line="2" selection-end-column="96" />
         </state>
       </provider>
     </entry>
