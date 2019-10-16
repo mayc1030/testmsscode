@@ -7,6 +7,7 @@ $( document ).ready(function() {
     $(".btn-category").click(function(){
         init_contentdrupalnotes();
     });
+    console.log("hola mundo");
 });
 
 function get_data_category(){
