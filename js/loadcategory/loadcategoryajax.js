@@ -6,9 +6,12 @@ $( document ).ready(function() {
     get_data_category();
     setTimeout(function(){
     $(".btn-category").click(function(){
-       var id_category = $('.btn-category').attr('class').split(' ')[1];
-        init_contentdrupalnotes(id_category);
-        console.log(id_category);
+        $(this).each(function(){
+            var id_category = $(this).attr('class').split(' ')[1];
+            init_contentdrupalnotes(id_category);
+            console.log(id_category);
+        });
+
     });
     }, 3000);
 });
