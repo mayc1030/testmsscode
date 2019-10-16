@@ -8,7 +8,7 @@ $( document ).ready(function() {
     // se genera el paginadorcontentdrupalnotes
     paginadorcontentdrupalnotes = $(".paginationcontentdrupalnotes");
     // cantidad de items por cdnpagina
-    var items = 1, numeros =4, id_category = 1;
+    var items = 1, numeros =4, id_category = 2;
     // inicia el paginadorcontentdrupalnotes
     init_paginator_contentdrupalnotes(paginadorcontentdrupalnotes,items,numeros, id_category);
     // se envia la peticion ajax que se realizara como callback
