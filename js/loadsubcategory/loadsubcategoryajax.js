@@ -18,9 +18,9 @@ function get_data_subcategoty(id_category){
         url:url_subcategories
     }).done(function(data,textStatus,jqXHR){
 
-        var objc = JSON.parse(data);
+        var objsubcategory = JSON.parse(data);
 
-        $.each(objc, function(key,value){
+        $.each(objsubcategory, function(key,value){
 
             $('<p class="h3">'+value.tid+'</p><p class="h3">'+value.name+'</p>').appendTo($(".fcontentdrupalnotes"));
 
