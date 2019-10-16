@@ -6,8 +6,9 @@ $( document ).ready(function() {
     get_data_category();
     $(".btn-category").click(function(){
         init_contentdrupalnotes();
+        console.log("hd3llo world");
     });
-    console.log("hrllo world");
+    console.log("h3llo world");
 });
 
 function get_data_category(){
