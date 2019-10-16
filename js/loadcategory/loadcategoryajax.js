@@ -27,6 +27,3 @@ function get_data_category(){
     });
 }
 
-$(".btn-category").click(function(){
-    init_contentdrupalnotes();
-});

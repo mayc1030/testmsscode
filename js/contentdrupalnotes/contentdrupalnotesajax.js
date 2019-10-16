@@ -78,3 +78,7 @@ function get_data_callbackcontentdrupalnotes(){
         alert("Error al realizar la peticion dame".textError);
     });
 }
+
+$(".btn-category").click(function(){
+    init_contentdrupalnotes();
+});
