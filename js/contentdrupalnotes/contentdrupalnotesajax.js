@@ -1,10 +1,5 @@
 
-$( document ).ready(function() {
-    $(".logo-list-drupalnotes").click(function(){
-        init_contentdrupalnotes();
-    });
-    console.log("hrllo world");
-});
+
 // url para llamar la peticion por ajax
 var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllPostforCategory.php";
 
