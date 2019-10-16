@@ -5,7 +5,6 @@ var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms
 //$( document ).ready(function() {
 function init_contentdrupalnotes(){
 
-    get_data_category();
     // se genera el paginadorcontentdrupalnotes
     paginadorcontentdrupalnotes = $(".paginationcontentdrupalnotes");
     // cantidad de items por cdnpagina
