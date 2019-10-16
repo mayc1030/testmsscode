@@ -8,12 +8,13 @@ $( document ).ready(function() {
     // se genera el paginadorcontentdrupalnotes
     paginadorcontentdrupalnotes = $(".paginationcontentdrupalnotes");
     // cantidad de items por cdnpagina
-    var items = 1, numeros =4;
+    var items = 1, numeros =4, id_category = 1;
     // inicia el paginadorcontentdrupalnotes
-    init_paginator_contentdrupalnotes(paginadorcontentdrupalnotes,items,numeros);
+    init_paginator_contentdrupalnotes(paginadorcontentdrupalnotes,items,numeros, id_category);
     // se envia la peticion ajax que se realizara como callback
     set_callbackcontentdrupalnotes(get_data_callbackcontentdrupalnotes);
     cargaPaginacontentdrupalnotes(0);
+
 });
 
 //get_data_callback();
@@ -22,6 +23,7 @@ function get_data_callbackcontentdrupalnotes(){
 
     $.ajax({
         data:{
+            id:id_category,
             limit: cdnitemsPorPagina,
             offset: cdndesde,
         },
