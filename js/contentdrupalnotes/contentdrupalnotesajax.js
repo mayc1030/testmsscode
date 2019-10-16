@@ -5,7 +5,7 @@ var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms
 $( document ).ready(function() {
 
     get_data_category();
-    var id_category = 1;
+
     // se genera el paginadorcontentdrupalnotes
     paginadorcontentdrupalnotes = $(".paginationcontentdrupalnotes");
     // cantidad de items por cdnpagina
@@ -13,14 +13,14 @@ $( document ).ready(function() {
     // inicia el paginadorcontentdrupalnotes
     init_paginator_contentdrupalnotes(paginadorcontentdrupalnotes,items,numeros);
     // se envia la peticion ajax que se realizara como callback
-    set_callbackcontentdrupalnotes(get_data_callbackcontentdrupalnotes(id_category));
+    set_callbackcontentdrupalnotes(get_data_callbackcontentdrupalnotes());
     cargaPaginacontentdrupalnotes(0);
 });
 
 //get_data_callback();
 // peticion ajax enviada como callback
-function get_data_callbackcontentdrupalnotes(id_category){
-
+function get_data_callbackcontentdrupalnotes(){
+    var id_category = 1;
     $.ajax({
         data:{
             id:id_category,
