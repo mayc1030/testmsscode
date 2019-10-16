@@ -1,4 +1,6 @@
-
+$(".logo-list-drupalnotes").click(function(){
+    init_contentdrupalnotes();
+});
 // url para llamar la peticion por ajax
 var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllPostforCategory.php";
 
@@ -79,6 +81,3 @@ function get_data_callbackcontentdrupalnotes(){
     });
 }
 
-$(".btn-category").click(function(){
-    init_contentdrupalnotes();
-});
