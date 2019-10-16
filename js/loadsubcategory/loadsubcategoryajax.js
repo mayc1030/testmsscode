@@ -4,6 +4,7 @@ var url_subcategories = "https://maycolsanchezsalazar.000webhostapp.com/cms/view
 
 
 function init_get_data_subcategory(id_category){
+    $(".btn-subcategory").remove();
     get_data_subcategory(id_category);
 }
 
@@ -19,7 +20,7 @@ function get_data_subcategory(id_category){
         let objsubcategory = JSON.parse(data);
 
         $.each(objsubcategory, function(key,value){
-            $('<a class="nav-link '+value.tid+' btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
+            $('<a class="nav-link '+value.tid+' btn-subcategory btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
         });
 
 
