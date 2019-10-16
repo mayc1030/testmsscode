@@ -2,12 +2,12 @@
 // url para llamar la peticion por ajax
 var url_subcategories = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/loadsubcategory.php";
 
-$( document ).ready(function() {
-    var id_category = 1;
-    get_data_subcategoty(id_category);
-});
 
-function get_data_subcategoty(id_category){
+function init_get_data_subcategory(id_category){
+    get_data_subcategory(id_category);
+}
+
+function get_data_subcategory(id_category){
 
     $.ajax({
         data: {id:id_category},
