@@ -4,10 +4,12 @@ var url_categories = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/a
 
 $( document ).ready(function() {
     get_data_category();
+    setTimeout(function(){ 
     $(".btn-category").click(function(){
         init_contentdrupalnotes();
         console.log("hd3llo world");
     });
+    }, 3000);
     console.log("h3llo world");
 });
 
