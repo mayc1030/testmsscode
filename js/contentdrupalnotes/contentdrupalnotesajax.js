@@ -2,7 +2,8 @@
 // url para llamar la peticion por ajax
 var url_contentdrupalnotes = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllPostforCategory.php";
 
-$( document ).ready(function() {
+//$( document ).ready(function() {
+function init_contentdrupalnotes(){
 
     get_data_category();
     // se genera el paginadorcontentdrupalnotes
@@ -14,8 +15,7 @@ $( document ).ready(function() {
     // se envia la peticion ajax que se realizara como callback
     set_callbackcontentdrupalnotes(get_data_callbackcontentdrupalnotes);
     cargaPaginacontentdrupalnotes(0);
-
-});
+}
 
 //get_data_callback();
 // peticion ajax enviada como callback

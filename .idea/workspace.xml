@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="389">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -119,6 +129,7 @@
         <option value="$PROJECT_DIR$/js/loadscategory/loadcategoryajax.js" />
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
         <option value="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotespaginator.min.js" />
+        <option value="$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js" />
         <option value="$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js" />
       </list>
     </option>
@@ -151,24 +162,7 @@
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="contentdrupalnotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="loadsubcategory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,12 +245,12 @@
       <workItem from="1570983365856" duration="6580000" />
       <workItem from="1571191843363" duration="4212000" />
       <workItem from="1571234731502" duration="17000" />
-      <workItem from="1571244161535" duration="6391000" />
+      <workItem from="1571244161535" duration="7288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160698000" />
+    <option name="totallyTimeSpent" value="161595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -542,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -579,8 +566,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/contentdrupalnotes/contentdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="389">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>

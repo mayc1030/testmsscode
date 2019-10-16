@@ -13,7 +13,7 @@ function get_data_category(){
         let objcategory = JSON.parse(data);
 
         $.each(objcategory, function(key,value){
-            $('<a class="nav-link '+value.tid+' btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
+            $('<a class="nav-link '+value.tid+' btn-category btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
         });
 
 
@@ -22,3 +22,7 @@ function get_data_category(){
         alert("Error al realizar la peticion dame".textError);
     });
 }
+
+$(".btn-category").click(function(){
+    init_contentdrupalnotes();
+});
