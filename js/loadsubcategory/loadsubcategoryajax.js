@@ -12,9 +12,8 @@ function init_get_data_subcategory(id_category){
                 var id_subcategory = $(this).attr('class').split(' ')[1];
                 init_contentsubcategory(id_subcategory);
             });
-
         });
-    }, 3000);
+    }, 1000);
 }
 
 function get_data_subcategory(id_category){
