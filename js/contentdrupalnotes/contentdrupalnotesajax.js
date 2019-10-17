@@ -33,6 +33,7 @@ function get_data_callbackcontentdrupalnotes(){
         // obtiene la clave lista del json data
         var lista = data.lista;
 
+        $(".title-seccion").html("");
        $(".fcontentdrupalnotes").html("");
 
         $(".date-seccion .info").remove();
