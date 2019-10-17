@@ -7,6 +7,7 @@ $( document ).ready(function() {
     setTimeout(function(){
     $(".btn-category").click(function(){
         $(this).each(function(){
+            $(".title-seccion").html($(this).text());
             var id_category = $(this).attr('class').split(' ')[1];
             init_contentdrupalnotes(id_category);
             init_get_data_subcategory(id_category);

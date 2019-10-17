@@ -33,7 +33,6 @@ function get_data_callbackcontentdrupalnotes(){
         // obtiene la clave lista del json data
         var lista = data.lista;
 
-        $(".title-seccion").html("");
        $(".fcontentdrupalnotes").html("");
 
         $(".date-seccion .info").remove();
@@ -52,7 +51,6 @@ function get_data_callbackcontentdrupalnotes(){
         $.each(JSON.parse(objc), function(key,value){
             if(key == "lista"){
                 $.each(value, function(i,val){
-                    $(".title-seccion").html(val.category);
                     $(".date-seccion").append("<div class='info'>El</div>");
                     $(".view-drupalnotes").append("<div class='info'><i class='fas fa-eye'></i> </div>");
                     $(".download-drupalnotes").append("<div class='info'><i class='fas fa-download'></i> </div>");
