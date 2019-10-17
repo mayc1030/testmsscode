@@ -12,6 +12,7 @@ function init_get_data_subcategory(id_category){
                 var id_subcategory = $(this).attr('class').split(' ')[1];
                 init_contentdrupalnotes(id_subcategory);
                 init_get_data_subcategory(id_subcategory);
+                console.log("holamundo");
             });
 
         });
