@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -273,12 +273,12 @@
       <workItem from="1571191843363" duration="4212000" />
       <workItem from="1571234731502" duration="17000" />
       <workItem from="1571244161535" duration="11129000" />
-      <workItem from="1571268081264" duration="14529000" />
+      <workItem from="1571268081264" duration="14995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179965000" />
+    <option name="totallyTimeSpent" value="180431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -604,15 +604,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/listcontentsdrupalnotes/listcontentsdrupalnotesajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
         </state>
       </provider>
     </entry>
