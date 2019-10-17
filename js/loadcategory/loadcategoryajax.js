@@ -7,6 +7,8 @@ $( document ).ready(function() {
     setTimeout(function(){
     $(".btn-category").click(function(){
         $(this).each(function(){
+            $('.logo-list-drupalnotes').remove();
+            $('<i class="fab fa-gamepad logo-list-drupalnotes"></i>').appendTo($("#control_menu_list_drupalnotes"));
             $(".title-seccion").html($(this).text());
             var id_category = $(this).attr('class').split(' ')[1];
             init_contentdrupalnotes(id_category);
