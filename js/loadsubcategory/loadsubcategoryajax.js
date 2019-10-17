@@ -6,6 +6,16 @@ var url_subcategories = "https://maycolsanchezsalazar.000webhostapp.com/cms/view
 function init_get_data_subcategory(id_category){
     $(".btn-subcategory").remove();
     get_data_subcategory(id_category);
+    setTimeout(function(){
+        $(".btn-subcategory").click(function(){
+            $(this).each(function(){
+                var id_subcategory = $(this).attr('class').split(' ')[1];
+                init_contentdrupalnotes(id_subcategory);
+                init_get_data_subcategory(id_subcategory);
+            });
+
+        });
+    }, 3000);
 }
 
 function get_data_subcategory(id_category){
