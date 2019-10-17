@@ -9,6 +9,7 @@ function init_get_data_subcategory(id_category){
     setTimeout(function(){
         $(".btn-subcategory").click(function(){
             $(this).each(function(){
+                $(".title-seccion").html("");
                 $(".title-seccion").html($(".title-seccion").text()+"-"+$(this).text());
                 var id_subcategory = $(this).attr('class').split(' ')[1];
                 init_contentsubcategory(id_subcategory);
