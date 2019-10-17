@@ -5,11 +5,11 @@ var url_subcategories = "https://maycolsanchezsalazar.000webhostapp.com/cms/view
 
 function init_get_data_subcategory(id_category){
     $(".btn-subcategory").remove();
+    var name_category = $(".title-seccion").text();
     get_data_subcategory(id_category);
     setTimeout(function(){
         $(".btn-subcategory").click(function(){
             $(this).each(function(){
-                var name_category = $(".title-seccion").text();
                 $(".title-seccion").html("");
                 $(".title-seccion").html(name_category+"-"+$(this).text());
                 var id_subcategory = $(this).attr('class').split(' ')[1];
