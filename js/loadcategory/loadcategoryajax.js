@@ -7,8 +7,9 @@ $( document ).ready(function() {
     setTimeout(function(){
     $(".btn-category").click(function(){
         $(this).each(function(){
+            var icon_category = $(this).attr('class').split(' ')[2];
             $('.logo-list-drupalnotes').remove();
-            $('<i class="fab fa-gamepad logo-list-drupalnotes"></i>').appendTo($("#control_menu_list_drupalnotes"));
+            $('<i class="fab '+icon_category+' logo-list-drupalnotes"></i>').appendTo($("#control_menu_list_drupalnotes"));
             $(".title-seccion").html($(this).text());
             var id_category = $(this).attr('class').split(' ')[1];
             init_contentdrupalnotes(id_category);
@@ -30,7 +31,7 @@ function get_data_category(){
         let objcategory = JSON.parse(data);
 
         $.each(objcategory, function(key,value){
-            $('<a class="nav-link '+value.tid+' btn-category btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
+            $('<a class="nav-link '+value.tid+' '+value.field_code_icon+' btn-category btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
         });
 
 
