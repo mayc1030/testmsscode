@@ -11,7 +11,6 @@ function init_get_data_subcategory(id_category){
             $(this).each(function(){
                 var id_subcategory = $(this).attr('class').split(' ')[1];
                 init_contentsubcategory(id_subcategory);
-                console.log("holamundo");
             });
 
         });
