@@ -7,9 +7,6 @@ $( document ).ready(function() {
     setTimeout(function(){
     $(".btn-category").click(function(){
         
-        $('#carousel-drupalnotes').toggle(1000);
-        $('#carousel-list-content-drupalnotes').toggle(1000);
-
 
         $(this).each(function(){
             var icon_category = $(this).attr('class').split(' ')[2];
