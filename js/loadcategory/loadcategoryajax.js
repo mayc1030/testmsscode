@@ -6,6 +6,7 @@ $( document ).ready(function() {
     get_data_category();
     setTimeout(function(){
     $(".btn-category").click(function(){
+        $('#carousel-drupalnotes').fadeIn();
         $('#carousel-list-content-drupalnotes').fadeOut();
         $(this).each(function(){
             var icon_category = $(this).attr('class').split(' ')[2];
