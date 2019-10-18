@@ -5,7 +5,8 @@ var url_categories = "https://maycolsanchezsalazar.000webhostapp.com/cms/views/a
 $( document ).ready(function() {
     get_data_category();
     setTimeout(function(){
-    $(".btn-category").click(function(){
+        $(".btn-category").click();
+        $(".btn-category").click(function(){
         $('#carousel-drupalnotes').show();
         $('#carousel-list-content-drupalnotes').hide();
         $(this).each(function(){
