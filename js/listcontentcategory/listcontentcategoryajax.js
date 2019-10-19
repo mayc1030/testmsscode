@@ -13,6 +13,7 @@ function action_button_list_content_category(id_c){
 }
 
 function init_get_data_list_content_category(id_c){
+    console.log("call methos ajax");
     // se genera el paginadorcontentdrupalnotes
     paginadorlistcontentdrupalnotes = $(".paginationlistcontentdrupalnotes");
     // cantidad de items por pagina
