@@ -44,7 +44,7 @@ function action_buttons_category(){
             });
         });
 
-        $('.nav-link .fa-drupal').click();
+        $('.nav-link.fa-drupal').click();
     }, 3000);
 }
 
