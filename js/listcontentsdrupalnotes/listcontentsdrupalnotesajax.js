@@ -4,8 +4,8 @@ var url_listcontentdrupalnotes= "https://maycolsanchezsalazar.000webhostapp.com/
 
 $('#carousel-list-content-drupalnotes').hide();
 $('#control_menu_list_drupalnotes .nav-link.drupalnotes').click(function() {
-    $('#carousel-list-content-drupalnotes').fadeIn(3000);
-    $('#carousel-drupalnotes').hide();
+    $('#carousel-list-content-drupalnotes').fadeIn();
+    $('#carousel-drupalnotes').fadeOut();
    // $('#carousel-list-content-drupalnotes').toggle(1000);
    // $('#carousel-drupalnotes').toggle(1000);
 });
