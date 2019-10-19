@@ -5,7 +5,8 @@ var url_listcontentcategory= "https://maycolsanchezsalazar.000webhostapp.com/cms
 
 function init_get_data_list_content_category(id_c){
 
-    $('<a class="nav-link  btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>Lista de Contenido</a>>').appendTo($(".componente-icon-list #list_content_category"));
+    $('.list_content_category').remove();
+    $('<a class="nav-link list_content_category btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>Lista de Contenido</a>').appendTo($(".componente-icon-list #list_content_category"));
 
     // se genera el paginadorcontentdrupalnotes
     paginadorlistcontentdrupalnotes = $(".paginationlistcontentdrupalnotes");
@@ -14,12 +15,12 @@ function init_get_data_list_content_category(id_c){
     // inicia el paginadorcontentdrupalnotes
     init_paginator_listcontentdrupalnotes(paginadorlistcontentdrupalnotes,items,numeros,id_category);
     // se envia la peticion ajax que se realizara como callback
-    set_callbacklistcontentdrupalnotes(get_data_callbacklistcontentdrupalnotes);
+    set_callbacklistcontentdrupalnotes(get_data_callback_list_content_category);
     cargaPaginalistcontentdrupalnotes(0);
 }
 
 // peticion ajax enviada como callback
-function get_data_callbacklistcontentdrupalnotes(){
+function get_data_callback_list_content_category(){
     $.ajax({
         data:{
             id:id_category,
@@ -27,7 +28,7 @@ function get_data_callbacklistcontentdrupalnotes(){
             offset: lcdndesde,
         },
         type:"POST",
-        url:url_listcontentdrupalnotes
+        url:url_listcontentcategory
     }).done(function(data,textStatus,jqXHR){
         // obtiene la clave lista del json data
         var lista = data.lista;
