@@ -14,8 +14,6 @@ function action_button_list_content_category(id_c){
 
 function init_get_data_list_content_category(id_c){
     console.log("call methos ajax");
-    $('#carousel-list-content-drupalnotes').fadeIn();
-    $('#carousel-drupalnotes').fadeOut();
     // se genera el paginadorcontentdrupalnotes
     paginadorlistcontentdrupalnotes = $(".paginationlistcontentdrupalnotes");
     // cantidad de items por pagina
@@ -38,6 +36,8 @@ function get_data_callback_list_content_category(){
         type:"POST",
         url:url_listcontentcategory
     }).done(function(data,textStatus,jqXHR){
+
+        $(".flistcontentdrupalnotes").remove();
         // obtiene la clave lista del json data
         var lista = data.lista;
         $(".flistcontentdrupalnotes").html("");
@@ -73,7 +73,8 @@ function get_data_callback_list_content_category(){
         if(lcdnpagina==0){
             creaPaginadorlistcontentdrupalnotes(cantidad);
         }
-
+        $('#carousel-list-content-drupalnotes').fadeIn();
+        $('#carousel-drupalnotes').fadeOut();
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame".textError);
     });
