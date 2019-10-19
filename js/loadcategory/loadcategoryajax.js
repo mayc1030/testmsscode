@@ -42,8 +42,9 @@ function action_buttons_category(){
                 init_contentdrupalnotes(id_category);
                 init_get_data_subcategory(id_category);
             });
-
         });
+
+        $('#control_menu_list_drupalnotes a:nth-child(2)').click();
     }, 3000);
 }
 
