@@ -2,12 +2,15 @@
 // url para llamar la peticion por ajax
 var url_listcontentcategory= "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllDrupalNotes.php";
 
+function action_button_list_content_category(id_c){
+    $('.list_content_category').remove();
+    $('<a class="nav-link btn_list_content_category role="button"><span class="icon-spinner5"></span>Lista de Contenido</a>').appendTo($(".componente-icon-list #list_content_category"));
+    $(".btn_list_content_category").click(function(){
+       init_get_data_list_content_category(id_c);
+    });
+}
 
 function init_get_data_list_content_category(id_c){
-
-    $('.list_content_category').remove();
-    $('<a class="nav-link list_content_category btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>Lista de Contenido</a>').appendTo($(".componente-icon-list #list_content_category"));
-
     // se genera el paginadorcontentdrupalnotes
     paginadorlistcontentdrupalnotes = $(".paginationlistcontentdrupalnotes");
     // cantidad de items por pagina

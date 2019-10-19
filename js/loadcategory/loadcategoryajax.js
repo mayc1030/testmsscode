@@ -41,7 +41,7 @@ function action_buttons_category(){
                 var id_category = $(this).attr('class').split(' ')[1];
                 init_contentdrupalnotes(id_category);
                 init_get_data_subcategory(id_category);
-                init_get_data_list_content_category(id_category);
+                action_button_list_content_category(id_category);
             });
         });
 
