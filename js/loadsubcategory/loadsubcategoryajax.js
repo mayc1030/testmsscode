@@ -16,7 +16,7 @@ function init_get_data_subcategory(id_category){
                 $(".title-seccion").html(name_category+"-"+$(this).text());
                 var id_subcategory = $(this).attr('class').split(' ')[1];
                 init_contentsubcategory(id_subcategory);
-               // action_button_list_content_subcategory(id_category);
+                action_button_list_content_subcategory(id_subcategory);
             });
         });
     }, 1000);
