@@ -9,6 +9,8 @@ function init_get_data_subcategory(id_category){
     get_data_subcategory(id_category);
     setTimeout(function(){
         $(".btn-subcategory").click(function(){
+            $('#carousel-drupalnotes').show();
+            $('#carousel-list-content-drupalnotes').hide();
             $(this).each(function(){
                 $(".title-seccion").html("");
                 $(".title-seccion").html(name_category+"-"+$(this).text());
