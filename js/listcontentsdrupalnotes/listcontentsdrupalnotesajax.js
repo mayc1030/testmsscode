@@ -3,25 +3,24 @@
 var url_listcontentdrupalnotes= "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllDrupalNotes.php";
 
 $('#control_menu_list_drupalnotes .nav-link.drupalnotes').click(function() {
-    $('#carousel-list-content-drupalnotes').hide();
     $('#carousel-list-content-drupalnotes').fadeIn();
     $('#carousel-drupalnotes').fadeOut();
-   // $('#carousel-list-content-drupalnotes').toggle(1000);
-   // $('#carousel-drupalnotes').toggle(1000);
+    init_get_data_list_content_drupalnotes();
 });
 
-$( document ).ready(function() {
 
-    // se genera el paginadorcontentdrupalnotes
-    paginadorlistcontentdrupalnotes = $(".paginationlistcontentdrupalnotes");
-    // cantidad de items por pagina
-    var items = 8, numeros =4;
-    // inicia el paginadorcontentdrupalnotes
-    init_paginator_listcontentdrupalnotes(paginadorlistcontentdrupalnotes,items,numeros);
-    // se envia la peticion ajax que se realizara como callback
-    set_callbacklistcontentdrupalnotes(get_data_callbacklistcontentdrupalnotes);
-    cargaPaginalistcontentdrupalnotes(0);
-});
+    function init_get_data_list_content_drupalnotes() {
+        // se genera el paginadorcontentdrupalnotes
+        paginadorlistcontentdrupalnotes = $(".paginationlistcontentdrupalnotes");
+        // cantidad de items por pagina
+        var items = 8, numeros = 4;
+        // inicia el paginadorcontentdrupalnotes
+        init_paginator_listcontentdrupalnotes(paginadorlistcontentdrupalnotes, items, numeros);
+        // se envia la peticion ajax que se realizara como callback
+        set_callbacklistcontentdrupalnotes(get_data_callbacklistcontentdrupalnotes);
+        cargaPaginalistcontentdrupalnotes(0);
+    }
+
 // peticion ajax enviada como callback
 function get_data_callbacklistcontentdrupalnotes(){
     $.ajax({
