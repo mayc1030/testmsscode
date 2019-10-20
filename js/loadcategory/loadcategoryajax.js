@@ -33,6 +33,7 @@ function action_buttons_category(){
         $(".btn-category").click(function(){
             $('#carousel-drupalnotes').show();
             $('#carousel-list-content-drupalnotes').hide();
+            $('.btn_list_content_subcategory').remove();
             $(this).each(function(){
                 var icon_category = $(this).attr('class').split(' ')[2];
                 $('.logo-list-drupalnotes').remove();
