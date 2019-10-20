@@ -3,8 +3,6 @@
 var url_listcontentsubcategory= "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllPostforSubCategory.php";
 
 function action_button_list_content_subcategory(id_c){
-    $('.btn_list_content_subcategory').remove();
-    $('<a class="nav-link btn_list_content_subcategory role="button"><span class="icon-spinner5"></span>Lista de Contenidos de la Subcategoria </a>').appendTo($(".componente-icon-list #list_content_subcategory"));
     setTimeout(function(){
         $(".btn_list_content_subcategory").click(function(){
             $('#carousel-list-content-drupalnotes').show();
