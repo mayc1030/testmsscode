@@ -2,8 +2,8 @@
 // url para llamar la peticion por ajax
 var url_listcontentdrupalnotes= "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllDrupalNotes.php";
 
-$('#carousel-list-content-drupalnotes').hide();
 $('#control_menu_list_drupalnotes .nav-link.drupalnotes').click(function() {
+    $('#carousel-list-content-drupalnotes').hide();
     $('#carousel-list-content-drupalnotes').fadeIn();
     $('#carousel-drupalnotes').fadeOut();
    // $('#carousel-list-content-drupalnotes').toggle(1000);

@@ -7,7 +7,6 @@ function action_button_list_content_category(id_c){
     $('<a class="nav-link btn_list_content_category role="button"><span class="icon-spinner5"></span>Lista de Contenidos de la categoria </a>').appendTo($(".componente-icon-list #list_content_category"));
     setTimeout(function(){
         $(".btn_list_content_category").click(function(){
-          
             init_get_data_list_content_category(id_c);
         });
     }, 1000);
