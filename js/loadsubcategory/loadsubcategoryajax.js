@@ -5,9 +5,7 @@ var url_subcategories = "https://maycolsanchezsalazar.000webhostapp.com/cms/view
 
 function init_get_data_subcategory(id_category){
     $(".btn-subcategory").remove();
-    $('.btn_list_content_subcategory').remove();
     var name_category = $(".title-seccion").text();
-    $('<a class="nav-link btn_list_content_subcategory role="button"><span class="icon-spinner5"></span>Lista de Contenidos de la Subcategoria </a>').appendTo($(".componente-icon-list #list_content_subcategory"));
     get_data_subcategory(id_category);
     setTimeout(function(){
         $(".btn-subcategory").click(function(){
@@ -18,6 +16,7 @@ function init_get_data_subcategory(id_category){
                 $(".title-seccion").html(name_category+"-"+$(this).text());
                 var id_subcategory = $(this).attr('class').split(' ')[1];
                 init_contentsubcategory(id_subcategory);
+                action_button_list_content_subcategory(id_category);
             });
         });
     }, 1000);
