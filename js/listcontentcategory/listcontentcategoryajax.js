@@ -71,6 +71,7 @@ function get_data_callback_list_content_category(){
         if(lcdnpagina==0){
             creaPaginadorlistcontentdrupalnotes(cantidad);
         }
+        $('#carousel-list-content-drupalnotes').fadeOut();
         $('#carousel-list-content-drupalnotes').fadeIn();
         $('#carousel-drupalnotes').fadeOut();
     }).fail(function(jqXHR,textStatus,textError){
