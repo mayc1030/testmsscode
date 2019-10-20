@@ -4,7 +4,7 @@ var url_listcontentsubcategory= "https://maycolsanchezsalazar.000webhostapp.com/
 
 function action_button_list_content_subcategory(id_c){
     $('.btn_list_content_subcategory').remove();
-    $('<a class="nav-link btn_list_content_category role="button"><span class="icon-spinner5"></span>Lista de Contenidos de la categoria </a>').appendTo($(".componente-icon-list #list_content_category"));
+    $('<a class="nav-link btn_list_content_subcategory role="button"><span class="icon-spinner5"></span>Lista de Contenidos de la categoria </a>').appendTo($(".componente-icon-list #list_content_subcategory"));
     setTimeout(function(){
         $(".btn_list_content_category").click(function(){
             $('#carousel-list-content-drupalnotes').show();
