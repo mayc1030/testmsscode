@@ -36,8 +36,6 @@ function get_data_callback_list_content_category(){
         type:"POST",
         url:url_listcontentcategory
     }).done(function(data,textStatus,jqXHR){
-
-        $(".flistcontentdrupalnotes").html("");
         // obtiene la clave lista del json data
         var lista = data.lista;
         $(".flistcontentdrupalnotes").html("");
