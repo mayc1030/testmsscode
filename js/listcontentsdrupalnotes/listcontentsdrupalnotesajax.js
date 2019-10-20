@@ -69,9 +69,6 @@ function get_data_callbacklistcontentdrupalnotes(){
             creaPaginadorlistcontentdrupalnotes(cantidad);
         }
 
-        $('#carousel-list-content-drupalnotes').fadeIn();
-        $('#carousel-drupalnotes').fadeOut();
-
     }).fail(function(jqXHR,textStatus,textError){
         alert("Error al realizar la peticion dame".textError);
     });
