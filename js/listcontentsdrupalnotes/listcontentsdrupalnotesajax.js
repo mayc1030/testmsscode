@@ -3,6 +3,7 @@
 var url_listcontentdrupalnotes= "https://maycolsanchezsalazar.000webhostapp.com/cms/views/ajax/getAllDrupalNotes.php";
 
 $('#control_menu_list_drupalnotes .nav-link.drupalnotes').click(function() {
+    $(".flistcontentdrupalnotes").html("");
     $('#carousel-list-content-drupalnotes').hide();
     $('#carousel-list-content-drupalnotes').fadeIn();
     $('#carousel-drupalnotes').fadeOut();
