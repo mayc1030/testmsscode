@@ -9,13 +9,13 @@ function action_button_list_content_category(id_c){
         $(".btn_list_content_category").click(function(){
             $('#carousel-list-content-drupalnotes').show();
             $('#carousel-drupalnotes').hide();
+            $(".title-seccion").html("Lista de Contenidos de la categoria");
             init_get_data_list_content_category(id_c);
         });
     }, 1000);
 }
 
 function init_get_data_list_content_category(id_c){
-    console.log("call methos ajax");
     // se genera el paginadorcontentdrupalnotes
     paginadorlistcontentdrupalnotes = $(".paginationlistcontentdrupalnotes");
     // cantidad de items por pagina

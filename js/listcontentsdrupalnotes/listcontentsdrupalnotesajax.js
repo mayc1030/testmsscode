@@ -5,6 +5,7 @@ var url_listcontentdrupalnotes= "https://maycolsanchezsalazar.000webhostapp.com/
 $('#control_menu_list_drupalnotes .nav-link.drupalnotes').click(function() {
     $('#carousel-list-content-drupalnotes').fadeIn();
     $('#carousel-drupalnotes').fadeOut();
+    $(".title-seccion").html("Lista de Todos los Contenidos");
     init_get_data_list_content_drupalnotes();
 });
 
