@@ -2784,6 +2784,23 @@ fieldset[disabled] a.btn {
     border-color: #aa9fd4
 }
 
+
+.btn-all-content {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem !important;
+    font-size: 0.8rem;
+    line-height: 2;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in-out
+}
+
 .btn-drupalnotes {
     display: inline-block;
     font-weight: 600;
