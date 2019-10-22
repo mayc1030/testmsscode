@@ -31,7 +31,7 @@ function action_buttons_category(){
     setTimeout(function(){
         $(".btn-category").click(function(){
             $('#carousel-drupalnotes').show();
-            $('#control_menu_list_categories').hide();
+            $('#carousel-list-content-drupalnotes').hide();
             $('.btn_list_content_subcategory').remove();
             $(this).each(function(){
                 var icon_category = $(this).attr('class').split(' ')[2];
