@@ -17,7 +17,7 @@ function get_data_category(){
         let objcategory = JSON.parse(data);
 
         $.each(objcategory, function(key,value){
-            $('<a class="nav-link '+value.tid+' '+value.field_code_icon+' btn-category btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_drupalnotes"));
+            $('<a class="nav-link '+value.tid+' '+value.field_code_icon+' btn-category btn-drupalnotes btn-drupalnotes-outline" role="button"><span class="icon-spinner5"></span>'+value.name+'</a>').appendTo($("#control_menu_list_categories"));
         });
 
         action_buttons_category();
@@ -29,15 +29,14 @@ function get_data_category(){
 
 function action_buttons_category(){
     setTimeout(function(){
-        // $('#control_menu_list_drupalnotes a:nth-child(2)').click();
         $(".btn-category").click(function(){
             $('#carousel-drupalnotes').show();
-            $('#carousel-list-content-drupalnotes').hide();
+            $('#control_menu_list_categories').hide();
             $('.btn_list_content_subcategory').remove();
             $(this).each(function(){
                 var icon_category = $(this).attr('class').split(' ')[2];
                 $('.logo-list-drupalnotes').remove();
-                $('<i class="fab '+icon_category+' logo-list-drupalnotes"></i>').appendTo($("#control_menu_list_drupalnotes"));
+                $('<i class="fab '+icon_category+' logo-list-drupalnotes"></i>').appendTo($("#control_menu_list_categories"));
                 $(".title-seccion").html($(this).text());
                 var id_category = $(this).attr('class').split(' ')[1];
                 init_contentdrupalnotes(id_category);
