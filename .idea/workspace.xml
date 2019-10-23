@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/landio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/landio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +19,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/landio.css">
+        <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="2825" column="22" lean-forward="true" selection-start-line="2825" selection-start-column="22" selection-end-line="2825" selection-end-column="22" />
+            <state relative-caret-position="307">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,7 +36,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mx-auto</find>
       <find>post-heading</find>
       <find>clearfix</find>
       <find>bg-headerprofile.jpg</find>
@@ -61,6 +65,7 @@
       <find>#control_menu_list_drupalnotes</find>
       <find>btn-drupalnotes</find>
       <find>.btn-proyect-outline</find>
+      <find>.btn-drupalnotes-outline</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -120,15 +125,15 @@
         <option value="$PROJECT_DIR$/js/loadsubcategory/loadsubcategoryajax.js" />
         <option value="$PROJECT_DIR$/js/listcontentsubcategory/listcontentsubcategoryajax.js" />
         <option value="$PROJECT_DIR$/js/loadcategory/loadcategoryajax.js" />
-        <option value="$PROJECT_DIR$/_includes/frontdrupalnotes.html" />
         <option value="$PROJECT_DIR$/css/landio.css" />
+        <option value="$PROJECT_DIR$/_includes/frontdrupalnotes.html" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="y" value="50" />
     <option name="width" value="980" />
@@ -149,6 +154,11 @@
             <path>
               <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
               <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testmsscode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testmsscode" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,12 +248,12 @@
       <workItem from="1571507869609" duration="9531000" />
       <workItem from="1571583277704" duration="15482000" />
       <workItem from="1571710023690" duration="2807000" />
-      <workItem from="1571802704031" duration="141000" />
+      <workItem from="1571802704031" duration="770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213706000" />
+    <option name="totallyTimeSpent" value="214335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -567,17 +577,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/landio.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="2825" column="22" lean-forward="true" selection-start-line="2825" selection-start-column="22" selection-end-line="2825" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/frontdrupalnotes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
