@@ -30,7 +30,7 @@
 
     function changeView() {
 
-        if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").size()) {
+        if(posicionActual === $("#carousel-"+ idselector+" .carousel-indicators li").length) {
             posicionActual = 1;
         } else {
             posicionActual++;
