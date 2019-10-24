@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/landio.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="831" lean-forward="true" selection-start-line="831" selection-end-line="831" />
+            <state relative-caret-position="172">
+              <caret line="830" column="10" selection-start-line="830" selection-start-column="10" selection-end-line="830" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -31,7 +31,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jumbotronblog</find>
       <find>.navbar-fixed-top</find>
       <find>pull-xs-right</find>
       <find>drupal</find>
@@ -61,6 +60,7 @@
       <find>section-ultimate-post</find>
       <find>car</find>
       <find>carousel</find>
+      <find>carousel-inner</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -255,12 +255,12 @@
       <workItem from="1571710023690" duration="2807000" />
       <workItem from="1571802704031" duration="5350000" />
       <workItem from="1571838590421" duration="129000" />
-      <workItem from="1571873223862" duration="12223000" />
+      <workItem from="1571873223862" duration="12571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231267000" />
+    <option name="totallyTimeSpent" value="231615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
@@ -600,8 +600,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/landio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="831" lean-forward="true" selection-start-line="831" selection-end-line="831" />
+        <state relative-caret-position="172">
+          <caret line="830" column="10" selection-start-line="830" selection-start-column="10" selection-end-line="830" selection-end-column="10" />
         </state>
       </provider>
     </entry>
