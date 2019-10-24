@@ -10144,7 +10144,7 @@ figure {
     background-color: rgba(255, 255, 255, 0.25)
 }
 
-.section-ultimate-post .carousel-ms-indicators {
+.section-ultimate-post .carousel-indicators {
     position: inherit;
     bottom: auto;
     left: 280px;
@@ -10152,7 +10152,7 @@ figure {
     margin: 0 0 2.1875rem
 }
 
-.section-ultimate-post .carousel-ms-indicators img {
+.section-ultimate-post .carousel-indicators img {
     width: 45px;
     height: 45px;
     margin: 5.5px auto 0;
@@ -10160,7 +10160,7 @@ figure {
     transition: all .1s ease-in-out
 }
 
-.section-ultimate-post .carousel-ms-indicators li {
+.section-ultimate-post .carousel-indicators li {
     width: 60px;
     height: 60px;
     margin: 0;
@@ -10171,17 +10171,17 @@ figure {
     transition: opacity .2s
 }
 
-.section-ultimate-post .carousel-ms-indicators li:hover {
+.section-ultimate-post .carousel-indicators li:hover {
     opacity: .9
 }
 
-.section-ultimate-post .carousel-ms-indicators li.active {
+.section-ultimate-post .carousel-indicators li.active {
     margin: 0;
     background-color: transparent;
     opacity: 1
 }
 
-.section-ultimate-post .carousel-ms-indicators li.active img {
+.section-ultimate-post .carousel-indicators li.active img {
     width: 56px;
     height: 56px;
     margin-top: 0;
