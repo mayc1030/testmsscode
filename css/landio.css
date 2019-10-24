@@ -829,8 +829,8 @@ mark,
 }
 
 .img-fluid,
-.carousel-inner>.carousel-item>img,
-.carousel-inner>.carousel-item>a>img {
+.carousel-ms-inner>.carousel-ms-item>img,
+.carousel-ms-inner>.carousel-ms-item>a>img {
     display: block;
     max-width: 100%;
     height: auto
@@ -4788,87 +4788,87 @@ button.list-group-item-danger.active:hover {
     position: relative
 }
 
-.carousel-inner {
+.carousel-ms-inner {
     position: relative;
     width: 100%;
     overflow: hidden
 }
 
-.carousel-inner>.carousel-item {
+.carousel-ms-inner>.carousel-ms-item {
     position: relative;
     display: none;
     transition: .6s ease-in-out left
 }
 
-.carousel-inner>.carousel-item>img,
-.carousel-inner>.carousel-item>a>img {
+.carousel-ms-inner>.carousel-ms-item>img,
+.carousel-ms-inner>.carousel-ms-item>a>img {
     line-height: 1
 }
 
 @media all and (transform-3d),
 (-webkit-transform-3d) {
-    .carousel-inner>.carousel-item {
+    .carousel-ms-inner>.carousel-ms-item {
         transition: transform .6s ease-in-out;
         backface-visibility: hidden;
         perspective: 1000px
     }
-    .carousel-inner>.carousel-item.next,
-    .carousel-inner>.carousel-item.active.right {
+    .carousel-ms-inner>.carousel-ms-item.next,
+    .carousel-ms-inner>.carousel-ms-item.active.right {
         left: 0;
         transform: translate3d(100%, 0, 0)
     }
-    .carousel-inner>.carousel-item.prev,
-    .carousel-inner>.carousel-item.active.left {
+    .carousel-ms-inner>.carousel-ms-item.prev,
+    .carousel-ms-inner>.carousel-ms-item.active.left {
         left: 0;
         transform: translate3d(-100%, 0, 0)
     }
-    .carousel-inner>.carousel-item.next.left,
-    .carousel-inner>.carousel-item.prev.right,
-    .carousel-inner>.carousel-item.active {
+    .carousel-ms-inner>.carousel-ms-item.next.left,
+    .carousel-ms-inner>.carousel-ms-item.prev.right,
+    .carousel-ms-inner>.carousel-ms-item.active {
         left: 0;
         transform: translate3d(0, 0, 0)
     }
 }
 
-.carousel-inner>.active,
-.carousel-inner>.next,
-.carousel-inner>.prev {
+.carousel-ms-inner>.active,
+.carousel-ms-inner>.next,
+.carousel-ms-inner>.prev {
     display: block
 }
 
-.carousel-inner>.active {
+.carousel-ms-inner>.active {
     left: 0
 }
 
-.carousel-inner>.next,
-.carousel-inner>.prev {
+.carousel-ms-inner>.next,
+.carousel-ms-inner>.prev {
     position: absolute;
     top: 0;
     width: 100%
 }
 
-.carousel-inner>.next {
+.carousel-ms-inner>.next {
     left: 100%
 }
 
-.carousel-inner>.prev {
+.carousel-ms-inner>.prev {
     left: -100%
 }
 
-.carousel-inner>.next.left,
-.carousel-inner>.prev.right {
+.carousel-ms-inner>.next.left,
+.carousel-ms-inner>.prev.right {
     left: 0
 }
 
-.carousel-inner>.active.left {
+.carousel-ms-inner>.active.left {
     left: -100%
 }
 
-.carousel-inner>.active.right {
+.carousel-ms-inner>.active.right {
     left: 100%
 }
 
-.carousel-control {
+.carousel-ms-control {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -4881,13 +4881,13 @@ button.list-group-item-danger.active:hover {
     opacity: 0.5
 }
 
-.carousel-control.left {
+.carousel-ms-control.left {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
     background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1)
 }
 
-.carousel-control.right {
+.carousel-ms-control.right {
     right: 0;
     left: auto;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
@@ -4895,16 +4895,16 @@ button.list-group-item-danger.active:hover {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)
 }
 
-.carousel-control:focus,
-.carousel-control:hover {
+.carousel-ms-control:focus,
+.carousel-ms-control:hover {
     color: #fff;
     text-decoration: none;
     outline: 0;
     opacity: .9
 }
 
-.carousel-control .icon-prev,
-.carousel-control .icon-next {
+.carousel-ms-control .icon-prev,
+.carousel-ms-control .icon-next {
     position: absolute;
     top: 50%;
     z-index: 5;
@@ -4916,25 +4916,25 @@ button.list-group-item-danger.active:hover {
     line-height: 1
 }
 
-.carousel-control .icon-prev {
+.carousel-ms-control .icon-prev {
     left: 50%;
     margin-left: -10px
 }
 
-.carousel-control .icon-next {
+.carousel-ms-control .icon-next {
     right: 50%;
     margin-right: -10px
 }
 
-.carousel-control .icon-prev::before {
+.carousel-ms-control .icon-prev::before {
     content: "\2039"
 }
 
-.carousel-control .icon-next::before {
+.carousel-ms-control .icon-next::before {
     content: "\203a"
 }
 
-.carousel-indicators {
+.carousel-ms-indicators {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -4946,7 +4946,7 @@ button.list-group-item-danger.active:hover {
     list-style: none
 }
 
-.carousel-indicators li {
+.carousel-ms-indicators li {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -4958,14 +4958,14 @@ button.list-group-item-danger.active:hover {
     border-radius: 10px
 }
 
-.carousel-indicators .active {
+.carousel-ms-indicators .active {
     width: 12px;
     height: 12px;
     margin: 0;
 
 }
 
-.carousel-caption {
+.carousel-ms-caption {
     position: absolute;
     right: 15%;
     bottom: 20px;
@@ -4978,30 +4978,30 @@ button.list-group-item-danger.active:hover {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6)
 }
 
-.carousel-caption .btn {
+.carousel-ms-caption .btn {
     text-shadow: none
 }
 
 @media (min-width: 544px) {
-    .carousel-control .icon-prev,
-    .carousel-control .icon-next {
+    .carousel-ms-control .icon-prev,
+    .carousel-ms-control .icon-next {
         width: 30px;
         height: 30px;
         margin-top: -15px;
         font-size: 30px
     }
-    .carousel-control .icon-prev {
+    .carousel-ms-control .icon-prev {
         margin-left: -15px
     }
-    .carousel-control .icon-next {
+    .carousel-ms-control .icon-next {
         margin-right: -15px
     }
-    .carousel-caption {
+    .carousel-ms-caption {
         right: 20%;
         left: 20%;
         padding-bottom: 30px
     }
-    .carousel-indicators {
+    .carousel-ms-indicators {
         bottom: 20px
     }
 }
@@ -9512,13 +9512,13 @@ body {
 
 
 .carousel-header,
-.carousel-inner,
-.carousel-item {
+.carousel-ms-inner,
+.carousel-ms-item {
     height: 100%
 }
 
 @media (min-width: 768px) {
-    .carousel-header .carousel-indicators {
+    .carousel-header .carousel-ms-indicators {
         top: 50%;
         right: 30px;
         bottom: auto;
@@ -9527,15 +9527,15 @@ body {
         margin-left: 0;
         transform: translateY(-50%)
     }
-    .carousel-header .carousel-indicators li {
+    .carousel-header .carousel-ms-indicators li {
         position: relative;
         display: block;
         margin: 0
     }
-    .carousel-header .carousel-indicators li+li {
+    .carousel-header .carousel-ms-indicators li+li {
         margin-top: 20px
     }
-    .carousel-header .carousel-indicators li+li:before {
+    .carousel-header .carousel-ms-indicators li+li:before {
         position: absolute;
         bottom: 17px;
         left: 8px;
@@ -9544,15 +9544,15 @@ body {
         content: '';
         background-color: rgba(255, 255, 255, 0.25)
     }
-    .carousel-header .carousel-indicators .active:before {
+    .carousel-header .carousel-ms-indicators .active:before {
         bottom: 21px
     }
-    .carousel-header .carousel-indicators .active+li:before {
+    .carousel-header .carousel-ms-indicators .active+li:before {
         height: 16px
     }
 }
 
-.carousel-header .carousel-indicators li {
+.carousel-header .carousel-ms-indicators li {
     width: 17px;
     height: 17px;
     margin: 10px;
@@ -9561,27 +9561,27 @@ body {
     border-radius: 50%
 }
 
-.carousel-header .carousel-indicators .active {
+.carousel-header .carousel-ms-indicators .active {
     width: 17px;
     height: 17px;
     box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.25)
 }
 
-.carousel-header .carousel-item {
+.carousel-header .carousel-ms-item {
     height: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover
 }
 
-.carousel-header .carousel-caption {
+.carousel-header .carousel-ms-caption {
     top: 20%;
     bottom: auto;
     text-shadow: none
 }
 
 @media (min-width: 768px) {
-    .carousel-header .carousel-caption {
+    .carousel-header .carousel-ms-caption {
         top: 50%;
         right: 40px;
         left: 40px;
@@ -10041,7 +10041,7 @@ figure {
     background-color: rgba(255, 255, 255, 0.25)
 }
 
-.section-testimonials .carousel-indicators {
+.section-testimonials .carousel-ms-indicators {
     position: inherit;
     bottom: auto;
     left: 280px;
@@ -10049,7 +10049,7 @@ figure {
     margin: 0 0 2.1875rem
 }
 
-.section-testimonials .carousel-indicators img {
+.section-testimonials .carousel-ms-indicators img {
     width: 45px;
     height: 45px;
     margin: 5.5px auto 0;
@@ -10057,7 +10057,7 @@ figure {
     transition: all .1s ease-in-out
 }
 
-.section-testimonials .carousel-indicators li {
+.section-testimonials .carousel-ms-indicators li {
     width: 60px;
     height: 60px;
     margin: 0;
@@ -10068,17 +10068,17 @@ figure {
     transition: opacity .2s
 }
 
-.section-testimonials .carousel-indicators li:hover {
+.section-testimonials .carousel-ms-indicators li:hover {
     opacity: .9
 }
 
-.section-testimonials .carousel-indicators li.active {
+.section-testimonials .carousel-ms-indicators li.active {
     margin: 0;
     background-color: transparent;
     opacity: 1
 }
 
-.section-testimonials .carousel-indicators li.active img {
+.section-testimonials .carousel-ms-indicators li.active img {
     width: 56px;
     height: 56px;
     margin-top: 0;
@@ -10144,7 +10144,7 @@ figure {
     background-color: rgba(255, 255, 255, 0.25)
 }
 
-.section-ultimate-post .carousel-indicators {
+.section-ultimate-post .carousel-ms-indicators {
     position: inherit;
     bottom: auto;
     left: 280px;
@@ -10152,7 +10152,7 @@ figure {
     margin: 0 0 2.1875rem
 }
 
-.section-ultimate-post .carousel-indicators img {
+.section-ultimate-post .carousel-ms-indicators img {
     width: 45px;
     height: 45px;
     margin: 5.5px auto 0;
@@ -10160,7 +10160,7 @@ figure {
     transition: all .1s ease-in-out
 }
 
-.section-ultimate-post .carousel-indicators li {
+.section-ultimate-post .carousel-ms-indicators li {
     width: 60px;
     height: 60px;
     margin: 0;
@@ -10171,17 +10171,17 @@ figure {
     transition: opacity .2s
 }
 
-.section-ultimate-post .carousel-indicators li:hover {
+.section-ultimate-post .carousel-ms-indicators li:hover {
     opacity: .9
 }
 
-.section-ultimate-post .carousel-indicators li.active {
+.section-ultimate-post .carousel-ms-indicators li.active {
     margin: 0;
     background-color: transparent;
     opacity: 1
 }
 
-.section-ultimate-post .carousel-indicators li.active img {
+.section-ultimate-post .carousel-ms-indicators li.active img {
     width: 56px;
     height: 56px;
     margin-top: 0;
