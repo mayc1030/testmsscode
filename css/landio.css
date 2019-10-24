@@ -4782,6 +4782,126 @@ button.list-group-item-danger.active:hover {
     }
 }
 
+
+
+
+
+
+
+
+
+
+.carousel-control:focus,
+.carousel-control:hover {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9
+}
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    font-family: serif;
+    line-height: 1
+}
+
+.carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px
+}
+
+.carousel-control .icon-next {
+    right: 50%;
+    margin-right: -10px
+}
+
+.carousel-control .icon-prev::before {
+    content: "\2039"
+}
+
+.carousel-control .icon-next::before {
+    content: "\203a"
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6)
+}
+
+.carousel-caption .btn {
+    text-shadow: none
+}
+
+@media (min-width: 544px) {
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        font-size: 30px
+    }
+    .carousel-control .icon-prev {
+        margin-left: -15px
+    }
+    .carousel-control .icon-next {
+        margin-right: -15px
+    }
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 30px
+    }
+    .carousel-indicators {
+        bottom: 20px
+    }
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -9284,6 +9404,89 @@ body {
     opacity: 1
 }
 
+
+
+
+.carousel-header,
+.carousel-inner,
+.carousel-item {
+    height: 100%
+}
+
+@media (min-width: 768px) {
+    .carousel-header .carousel-indicators {
+        top: 50%;
+        right: 30px;
+        bottom: auto;
+        left: auto;
+        width: auto;
+        margin-left: 0;
+        transform: translateY(-50%)
+    }
+    .carousel-header .carousel-indicators li {
+        position: relative;
+        display: block;
+        margin: 0
+    }
+    .carousel-header .carousel-indicators li+li {
+        margin-top: 20px
+    }
+    .carousel-header .carousel-indicators li+li:before {
+        position: absolute;
+        bottom: 17px;
+        left: 8px;
+        width: 1px;
+        height: 20px;
+        content: '';
+        background-color: rgba(255, 255, 255, 0.25)
+    }
+    .carousel-header .carousel-indicators .active:before {
+        bottom: 21px
+    }
+    .carousel-header .carousel-indicators .active+li:before {
+        height: 16px
+    }
+}
+
+.carousel-header .carousel-indicators li {
+    width: 17px;
+    height: 17px;
+    margin: 10px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50%
+}
+
+.carousel-header .carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.25)
+}
+
+.carousel-header .carousel-item {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+.carousel-header .carousel-caption {
+    top: 20%;
+    bottom: auto;
+    text-shadow: none
+}
+
+@media (min-width: 768px) {
+    .carousel-header .carousel-caption {
+        top: 50%;
+        right: 40px;
+        left: 40px;
+        padding: 0;
+        text-shadow: none;
+        transform: translateY(-50%)
+    }
+}
+
 @media (max-width: 991px) {
     h1,
     .h1 {
@@ -9734,7 +9937,7 @@ figure {
     background-color: rgba(255, 255, 255, 0.25)
 }
 
-.section-testimonials .carousel-ms-indicators {
+.section-testimonials .carousel-indicators {
     position: inherit;
     bottom: auto;
     left: 280px;
@@ -9742,7 +9945,7 @@ figure {
     margin: 0 0 2.1875rem
 }
 
-.section-testimonials .carousel-ms-indicators img {
+.section-testimonials .carousel-indicators img {
     width: 45px;
     height: 45px;
     margin: 5.5px auto 0;
@@ -9750,7 +9953,7 @@ figure {
     transition: all .1s ease-in-out
 }
 
-.section-testimonials .carousel-ms-indicators li {
+.section-testimonials .carousel-indicators li {
     width: 60px;
     height: 60px;
     margin: 0;
@@ -9761,17 +9964,17 @@ figure {
     transition: opacity .2s
 }
 
-.section-testimonials .carousel-ms-indicators li:hover {
+.section-testimonials .carousel-indicators li:hover {
     opacity: .9
 }
 
-.section-testimonials .carousel-ms-indicators li.active {
+.section-testimonials .carousel-indicators li.active {
     margin: 0;
     background-color: transparent;
     opacity: 1
 }
 
-.section-testimonials .carousel-ms-indicators li.active img {
+.section-testimonials .carousel-indicators li.active img {
     width: 56px;
     height: 56px;
     margin-top: 0;
@@ -9837,7 +10040,7 @@ figure {
     background-color: rgba(255, 255, 255, 0.25)
 }
 
-.section-ultimate-post .carousel-ms-indicators {
+.section-ultimate-post .carousel-indicators {
     position: inherit;
     bottom: auto;
     left: 280px;
@@ -9845,7 +10048,7 @@ figure {
     margin: 0 0 2.1875rem
 }
 
-.section-ultimate-post .carousel-ms-indicators img {
+.section-ultimate-post .carousel-indicators img {
     width: 45px;
     height: 45px;
     margin: 5.5px auto 0;
@@ -9853,7 +10056,7 @@ figure {
     transition: all .1s ease-in-out
 }
 
-.section-ultimate-post .carousel-ms-indicators li {
+.section-ultimate-post .carousel-indicators li {
     width: 60px;
     height: 60px;
     margin: 0;
@@ -9864,17 +10067,17 @@ figure {
     transition: opacity .2s
 }
 
-.section-ultimate-post .carousel-ms-indicators li:hover {
+.section-ultimate-post .carousel-indicators li:hover {
     opacity: .9
 }
 
-.section-ultimate-post .carousel-ms-indicators li.active {
+.section-ultimate-post .carousel-indicators li.active {
     margin: 0;
     background-color: transparent;
     opacity: 1
 }
 
-.section-ultimate-post .carousel-ms-indicators li.active img {
+.section-ultimate-post .carousel-indicators li.active img {
     width: 56px;
     height: 56px;
     margin-top: 0;
