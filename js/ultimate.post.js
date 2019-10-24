@@ -40,7 +40,7 @@
     }
 
     function renderizarImagen () {
-        $('#carousel-'+ idselector+' .carousel-indicators li:nth-child('+posicionActual+') img').click();
+        $('#carousel-'+ idselector+' .carousel-ms-indicators li:nth-child('+posicionActual+') img').click();
     }
 
 
@@ -84,7 +84,7 @@
     }
 
 
-        $(".carousel-inner").hover(function(){
+        $(".carousel-ms-inner").hover(function(){
             clearInterval(intervalo);
         }, function(){
             intervalo = setInterval(changeView, TIEMPO_INTERVALO_MILESIMAS_SEG);
@@ -122,10 +122,10 @@
             $.each(objc, function(key,value){
 
                 var indice = key;
-                if ($('#carousel-'+ idselector +' .carousel-inner').find('div').length < objc.length) {
-                    $('<div class="carousel-item"><blockquote class="blockquote"><img src="img/myproyect1.jpg" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3"><a href="drupalnotes?id='+ value.nid +'">'+ value.title +'<a/></p><footer>My Profile</footer></blockquote></div>').appendTo($("#carousel-"+ idselector +" .carousel-inner"));
-                    $('<li><img src="img/myproyect2.jpg" alt="Navigation avatar" data-target="#carousel-'+ idselector +'" data-slide-to="'+ indice +'" class="img-fluid img-circle"></li>').appendTo($("#carousel-"+ idselector +" .carousel-indicators"));
-                    $("#carousel-"+ idselector +" .carousel-inner div:first-child").addClass(" active");
+                if ($('#carousel-'+ idselector +' .carousel-ms-inner').find('div').length < objc.length) {
+                    $('<div class="carousel-ms-item"><blockquote class="blockquote"><img src="img/myproyect1.jpg" height="80" width="80" alt="Avatar" class="img-circle"> <p class="h3"><a href="drupalnotes?id='+ value.nid +'">'+ value.title +'<a/></p><footer>My Profile</footer></blockquote></div>').appendTo($("#carousel-"+ idselector +" .carousel-ms-inner"));
+                    $('<li><img src="img/myproyect2.jpg" alt="Navigation avatar" data-target="#carousel-'+ idselector +'" data-slide-to="'+ indice +'" class="img-fluid img-circle"></li>').appendTo($("#carousel-"+ idselector +" .carousel-ms-indicators"));
+                    $("#carousel-"+ idselector +" .carousel-ms-inner div:first-child").addClass(" active");
                 }
 
             });
