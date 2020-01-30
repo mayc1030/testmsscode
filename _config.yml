@@ -5,6 +5,9 @@ author:             Maycol Sanchez Salazar
 baseurl:           ""
 url:               "https://maycolsanchezsalazar.com"
 
+#baseurl:           "/testmsscode"
+#url:               "https://mayc1030.github.io"
+
 # Social Profiles
 twitter_username:  SBootstrap
 github_username:   BlackrockDigital
