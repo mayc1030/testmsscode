@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eef98caa-d414-44b6-af1d-175a5ce69ee1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/frontdrupalnotes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/ultimatepost.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/ultimatepost.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,7 +116,10 @@
       <workItem from="1576622641894" duration="6000" />
       <workItem from="1576622758293" duration="22000" />
       <workItem from="1580352046474" duration="1641000" />
-      <workItem from="1585434978750" duration="915000" />
+      <workItem from="1585434978750" duration="1250000" />
+      <workItem from="1585436619441" duration="1703000" />
+      <workItem from="1585438580192" duration="1977000" />
+      <workItem from="1585440594512" duration="104000" />
     </task>
     <servers />
   </component>
